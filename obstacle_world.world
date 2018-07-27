@@ -1,0 +1,3829 @@
+# .world file for configuring the Stage simulator 
+# Authors: Ce MA, Jun Steed HUANG, 2018
+# This is a world containing multiple robots and a set of obstacles like headwind
+# The goal is for majority robots move against wind faster by team formation
+include "map.inc"
+include "robot.inc"
+
+# windowGUI adjustment
+window
+( 
+   size [700.000 700.000] 
+   scale 35
+)
+
+floorplan
+(   
+    bitmap "bitmaps/goal_map.png"
+    size [15 15 1.5]
+)
+
+# define robot one by one, should be automated by a loop or a shell script
+robot
+(
+    name "robot0"
+    pose [-3.0 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 1
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot1"
+    pose [-3.0 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 2
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot2"
+    pose [-3.0 -5.414285714285715 0 0]
+    color "blue"
+    fiducial_return 3
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot3"
+    pose [-3.0 -4.7 0 0]
+    color "blue"
+    fiducial_return 4
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot4"
+    pose [-3.0 -3.9857142857142867 0 0]
+    color "blue"
+    fiducial_return 5
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot5"
+    pose [-3.0 -3.271428571428572 0 0]
+    color "blue"
+    fiducial_return 6
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot6"
+    pose [-3.0 -2.557142857142858 0 0]
+    color "blue"
+    fiducial_return 7
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot7"
+    pose [-3.0 -1.8428571428571432 0 0]
+    color "blue"
+    fiducial_return 8
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot8"
+    pose [-3.0 -1.1285714285714288 0 0]
+    color "blue"
+    fiducial_return 9
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot9"
+    pose [-3.0 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 10
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot10"
+    pose [-3.0 0.3 0 0]
+    color "green"
+    fiducial_return 11
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot11"
+    pose [-3.0 1.0142857142857145 0 0]
+    color "blue"
+    fiducial_return 12
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot12"
+    pose [-3.0 1.728571428571428 0 0]
+    color "blue"
+    fiducial_return 13
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot13"
+    pose [-3.0 2.442857142857143 0 0]
+    color "blue"
+    fiducial_return 14
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot14"
+    pose [-3.0 3.1571428571428566 0 0]
+    color "blue"
+    fiducial_return 15
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot15"
+    pose [-3.0 3.871428571428572 0 0]
+    color "blue"
+    fiducial_return 16
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot16"
+    pose [-3.0 4.585714285714285 0 0]
+    color "blue"
+    fiducial_return 17
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot17"
+    pose [-3.0 5.300000000000001 0 0]
+    color "blue"
+    fiducial_return 18
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot18"
+    pose [-3.0 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 19
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot19"
+    pose [-3.0 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 20
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot20"
+    pose [-3.7142857142857144 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 21
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot21"
+    pose [-3.7142857142857144 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 22
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot22"
+    pose [-3.7142857142857144 -5.414285714285715 0 0]
+    color "blue"
+    fiducial_return 23
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot23"
+    pose [-3.7142857142857144 -4.7 0 0]
+    color "blue"
+    fiducial_return 24
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot24"
+    pose [-3.7142857142857144 -3.9857142857142867 0 0]
+    color "blue"
+    fiducial_return 25
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot25"
+    pose [-3.7142857142857144 -3.271428571428572 0 0]
+    color "blue"
+    fiducial_return 26
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot26"
+    pose [-3.7142857142857144 -2.557142857142858 0 0]
+    color "blue"
+    fiducial_return 27
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot27"
+    pose [-3.7142857142857144 -1.8428571428571432 0 0]
+    color "blue"
+    fiducial_return 28
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot28"
+    pose [-3.7142857142857144 -1.1285714285714288 0 0]
+    color "blue"
+    fiducial_return 29
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot29"
+    pose [-3.7142857142857144 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 30
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot30"
+    pose [-3.7142857142857144 0.3 0 0]
+    color "green"
+    fiducial_return 31
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot31"
+    pose [-3.7142857142857144 1.0142857142857145 0 0]
+    color "blue"
+    fiducial_return 32
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot32"
+    pose [-3.7142857142857144 1.728571428571428 0 0]
+    color "blue"
+    fiducial_return 33
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot33"
+    pose [-3.7142857142857144 2.442857142857143 0 0]
+    color "blue"
+    fiducial_return 34
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot34"
+    pose [-3.7142857142857144 3.1571428571428566 0 0]
+    color "blue"
+    fiducial_return 35
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot35"
+    pose [-3.7142857142857144 3.871428571428572 0 0]
+    color "blue"
+    fiducial_return 36
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot36"
+    pose [-3.7142857142857144 4.585714285714285 0 0]
+    color "blue"
+    fiducial_return 37
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot37"
+    pose [-3.7142857142857144 5.300000000000001 0 0]
+    color "blue"
+    fiducial_return 38
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot38"
+    pose [-3.7142857142857144 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 39
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot39"
+    pose [-3.7142857142857144 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 40
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot40"
+    pose [-4.428571428571429 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 41
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot41"
+    pose [-4.428571428571429 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 42
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot42"
+    pose [-4.428571428571429 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 43
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot43"
+    pose [-4.428571428571429 -4.7 0 0]
+    color "red"
+    fiducial_return 44
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot44"
+    pose [-4.428571428571429 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 45
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot45"
+    pose [-4.428571428571429 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 46
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot46"
+    pose [-4.428571428571429 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 47
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot47"
+    pose [-4.428571428571429 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 48
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot48"
+    pose [-4.428571428571429 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 49
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot49"
+    pose [-4.428571428571429 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 50
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot50"
+    pose [-4.428571428571429 0.3 0 0]
+    color "green"
+    fiducial_return 51
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot51"
+    pose [-4.428571428571429 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 52
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot52"
+    pose [-4.428571428571429 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 53
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot53"
+    pose [-4.428571428571429 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 54
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot54"
+    pose [-4.428571428571429 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 55
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot55"
+    pose [-4.428571428571429 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 56
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot56"
+    pose [-4.428571428571429 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 57
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot57"
+    pose [-4.428571428571429 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 58
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot58"
+    pose [-4.428571428571429 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 59
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot59"
+    pose [-4.428571428571429 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 60
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot60"
+    pose [-5.142857142857142 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 61
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot61"
+    pose [-5.142857142857142 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 62
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot62"
+    pose [-5.142857142857142 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 63
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot63"
+    pose [-5.142857142857142 -4.7 0 0]
+    color "red"
+    fiducial_return 64
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot64"
+    pose [-5.142857142857142 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 65
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot65"
+    pose [-5.142857142857142 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 66
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot66"
+    pose [-5.142857142857142 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 67
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot67"
+    pose [-5.142857142857142 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 68
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot68"
+    pose [-5.142857142857142 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 69
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot69"
+    pose [-5.142857142857142 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 70
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot70"
+    pose [-5.142857142857142 0.3 0 0]
+    color "green"
+    fiducial_return 71
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot71"
+    pose [-5.142857142857142 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 72
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot72"
+    pose [-5.142857142857142 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 73
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot73"
+    pose [-5.142857142857142 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 74
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot74"
+    pose [-5.142857142857142 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 75
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot75"
+    pose [-5.142857142857142 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 76
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot76"
+    pose [-5.142857142857142 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 77
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot77"
+    pose [-5.142857142857142 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 78
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot78"
+    pose [-5.142857142857142 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 79
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot79"
+    pose [-5.142857142857142 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 80
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot80"
+    pose [-5.857142857142858 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 81
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot81"
+    pose [-5.857142857142858 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 82
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot82"
+    pose [-5.857142857142858 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 83
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot83"
+    pose [-5.857142857142858 -4.7 0 0]
+    color "red"
+    fiducial_return 84
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot84"
+    pose [-5.857142857142858 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 85
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot85"
+    pose [-5.857142857142858 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 86
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot86"
+    pose [-5.857142857142858 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 87
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot87"
+    pose [-5.857142857142858 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 88
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot88"
+    pose [-5.857142857142858 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 89
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot89"
+    pose [-5.857142857142858 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 90
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot90"
+    pose [-5.857142857142858 0.3 0 0]
+    color "green"
+    fiducial_return 91
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot91"
+    pose [-5.857142857142858 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 92
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot92"
+    pose [-5.857142857142858 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 93
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot93"
+    pose [-5.857142857142858 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 94
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot94"
+    pose [-5.857142857142858 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 95
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot95"
+    pose [-5.857142857142858 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 96
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot96"
+    pose [-5.857142857142858 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 97
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot97"
+    pose [-5.857142857142858 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 98
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot98"
+    pose [-5.857142857142858 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 99
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot99"
+    pose [-5.857142857142858 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 100
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot100"
+    pose [-6.571428571428571 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 101
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot101"
+    pose [-6.571428571428571 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 102
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot102"
+    pose [-6.571428571428571 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 103
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot103"
+    pose [-6.571428571428571 -4.7 0 0]
+    color "red"
+    fiducial_return 104
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot104"
+    pose [-6.571428571428571 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 105
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot105"
+    pose [-6.571428571428571 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 106
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot106"
+    pose [-6.571428571428571 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 107
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot107"
+    pose [-6.571428571428571 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 108
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot108"
+    pose [-6.571428571428571 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 109
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot109"
+    pose [-6.571428571428571 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 110
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot110"
+    pose [-6.571428571428571 0.3 0 0]
+    color "green"
+    fiducial_return 111
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot111"
+    pose [-6.571428571428571 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 112
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot112"
+    pose [-6.571428571428571 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 113
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot113"
+    pose [-6.571428571428571 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 114
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot114"
+    pose [-6.571428571428571 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 115
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot115"
+    pose [-6.571428571428571 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 116
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot116"
+    pose [-6.571428571428571 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 117
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot117"
+    pose [-6.571428571428571 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 118
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot118"
+    pose [-6.571428571428571 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 119
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot119"
+    pose [-6.571428571428571 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 120
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot120"
+    pose [-7.285714285714286 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 121
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot121"
+    pose [-7.285714285714286 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 122
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot122"
+    pose [-7.285714285714286 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 123
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot123"
+    pose [-7.285714285714286 -4.7 0 0]
+    color "red"
+    fiducial_return 124
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot124"
+    pose [-7.285714285714286 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 125
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot125"
+    pose [-7.285714285714286 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 126
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot126"
+    pose [-7.285714285714286 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 127
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot127"
+    pose [-7.285714285714286 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 128
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot128"
+    pose [-7.285714285714286 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 129
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot129"
+    pose [-7.285714285714286 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 130
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot130"
+    pose [-7.285714285714286 0.3 0 0]
+    color "green"
+    fiducial_return 131
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot131"
+    pose [-7.285714285714286 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 132
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot132"
+    pose [-7.285714285714286 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 133
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot133"
+    pose [-7.285714285714286 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 134
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot134"
+    pose [-7.285714285714286 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 135
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot135"
+    pose [-7.285714285714286 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 136
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot136"
+    pose [-7.285714285714286 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 137
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot137"
+    pose [-7.285714285714286 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 138
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot138"
+    pose [-7.285714285714286 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 139
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot139"
+    pose [-7.285714285714286 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 140
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot140"
+    pose [-8.0 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 141
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot141"
+    pose [-8.0 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 142
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot142"
+    pose [-8.0 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 143
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot143"
+    pose [-8.0 -4.7 0 0]
+    color "red"
+    fiducial_return 144
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot144"
+    pose [-8.0 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 145
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot145"
+    pose [-8.0 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 146
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot146"
+    pose [-8.0 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 147
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot147"
+    pose [-8.0 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 148
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot148"
+    pose [-8.0 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 149
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot149"
+    pose [-8.0 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 150
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot150"
+    pose [-8.0 0.3 0 0]
+    color "green"
+    fiducial_return 151
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot151"
+    pose [-8.0 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 152
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot152"
+    pose [-8.0 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 153
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot153"
+    pose [-8.0 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 154
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot154"
+    pose [-8.0 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 155
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot155"
+    pose [-8.0 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 156
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot156"
+    pose [-8.0 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 157
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot157"
+    pose [-8.0 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 158
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot158"
+    pose [-8.0 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 159
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot159"
+    pose [-8.0 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 160
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot160"
+    pose [-8.714285714285715 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 161
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot161"
+    pose [-8.714285714285715 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 162
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot162"
+    pose [-8.714285714285715 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 163
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot163"
+    pose [-8.714285714285715 -4.7 0 0]
+    color "red"
+    fiducial_return 164
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot164"
+    pose [-8.714285714285715 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 165
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot165"
+    pose [-8.714285714285715 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 166
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot166"
+    pose [-8.714285714285715 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 167
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot167"
+    pose [-8.714285714285715 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 168
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot168"
+    pose [-8.714285714285715 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 169
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot169"
+    pose [-8.714285714285715 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 170
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot170"
+    pose [-8.714285714285715 0.3 0 0]
+    color "green"
+    fiducial_return 171
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot171"
+    pose [-8.714285714285715 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 172
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot172"
+    pose [-8.714285714285715 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 173
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot173"
+    pose [-8.714285714285715 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 174
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot174"
+    pose [-8.714285714285715 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 175
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot175"
+    pose [-8.714285714285715 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 176
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot176"
+    pose [-8.714285714285715 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 177
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot177"
+    pose [-8.714285714285715 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 178
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot178"
+    pose [-8.714285714285715 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 179
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot179"
+    pose [-8.714285714285715 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 180
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot180"
+    pose [-9.428571428571429 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 181
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot181"
+    pose [-9.428571428571429 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 182
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot182"
+    pose [-9.428571428571429 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 183
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot183"
+    pose [-9.428571428571429 -4.7 0 0]
+    color "red"
+    fiducial_return 184
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot184"
+    pose [-9.428571428571429 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 185
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot185"
+    pose [-9.428571428571429 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 186
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot186"
+    pose [-9.428571428571429 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 187
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot187"
+    pose [-9.428571428571429 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 188
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot188"
+    pose [-9.428571428571429 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 189
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot189"
+    pose [-9.428571428571429 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 190
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot190"
+    pose [-9.428571428571429 0.3 0 0]
+    color "green"
+    fiducial_return 191
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot191"
+    pose [-9.428571428571429 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 192
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot192"
+    pose [-9.428571428571429 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 193
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot193"
+    pose [-9.428571428571429 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 194
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot194"
+    pose [-9.428571428571429 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 195
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot195"
+    pose [-9.428571428571429 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 196
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot196"
+    pose [-9.428571428571429 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 197
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot197"
+    pose [-9.428571428571429 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 198
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot198"
+    pose [-9.428571428571429 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 199
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot199"
+    pose [-9.428571428571429 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 200
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot200"
+    pose [-10.142857142857142 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 201
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot201"
+    pose [-10.142857142857142 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 202
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot202"
+    pose [-10.142857142857142 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 203
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot203"
+    pose [-10.142857142857142 -4.7 0 0]
+    color "red"
+    fiducial_return 204
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot204"
+    pose [-10.142857142857142 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 205
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot205"
+    pose [-10.142857142857142 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 206
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot206"
+    pose [-10.142857142857142 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 207
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot207"
+    pose [-10.142857142857142 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 208
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot208"
+    pose [-10.142857142857142 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 209
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot209"
+    pose [-10.142857142857142 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 210
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot210"
+    pose [-10.142857142857142 0.3 0 0]
+    color "green"
+    fiducial_return 211
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot211"
+    pose [-10.142857142857142 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 212
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot212"
+    pose [-10.142857142857142 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 213
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot213"
+    pose [-10.142857142857142 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 214
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot214"
+    pose [-10.142857142857142 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 215
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot215"
+    pose [-10.142857142857142 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 216
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot216"
+    pose [-10.142857142857142 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 217
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot217"
+    pose [-10.142857142857142 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 218
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot218"
+    pose [-10.142857142857142 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 219
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot219"
+    pose [-10.142857142857142 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 220
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot220"
+    pose [-10.857142857142858 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 221
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot221"
+    pose [-10.857142857142858 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 222
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot222"
+    pose [-10.857142857142858 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 223
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot223"
+    pose [-10.857142857142858 -4.7 0 0]
+    color "red"
+    fiducial_return 224
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot224"
+    pose [-10.857142857142858 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 225
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot225"
+    pose [-10.857142857142858 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 226
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot226"
+    pose [-10.857142857142858 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 227
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot227"
+    pose [-10.857142857142858 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 228
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot228"
+    pose [-10.857142857142858 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 229
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot229"
+    pose [-10.857142857142858 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 230
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot230"
+    pose [-10.857142857142858 0.3 0 0]
+    color "green"
+    fiducial_return 231
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot231"
+    pose [-10.857142857142858 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 232
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot232"
+    pose [-10.857142857142858 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 233
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot233"
+    pose [-10.857142857142858 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 234
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot234"
+    pose [-10.857142857142858 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 235
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot235"
+    pose [-10.857142857142858 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 236
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot236"
+    pose [-10.857142857142858 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 237
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot237"
+    pose [-10.857142857142858 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 238
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot238"
+    pose [-10.857142857142858 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 239
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot239"
+    pose [-10.857142857142858 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 240
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot240"
+    pose [-11.571428571428571 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 241
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot241"
+    pose [-11.571428571428571 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 242
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot242"
+    pose [-11.571428571428571 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 243
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot243"
+    pose [-11.571428571428571 -4.7 0 0]
+    color "red"
+    fiducial_return 244
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot244"
+    pose [-11.571428571428571 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 245
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot245"
+    pose [-11.571428571428571 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 246
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot246"
+    pose [-11.571428571428571 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 247
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot247"
+    pose [-11.571428571428571 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 248
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot248"
+    pose [-11.571428571428571 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 249
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot249"
+    pose [-11.571428571428571 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 250
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot250"
+    pose [-11.571428571428571 0.3 0 0]
+    color "green"
+    fiducial_return 251
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot251"
+    pose [-11.571428571428571 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 252
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot252"
+    pose [-11.571428571428571 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 253
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot253"
+    pose [-11.571428571428571 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 254
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot254"
+    pose [-11.571428571428571 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 255
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot255"
+    pose [-11.571428571428571 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 256
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot256"
+    pose [-11.571428571428571 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 257
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot257"
+    pose [-11.571428571428571 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 258
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot258"
+    pose [-11.571428571428571 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 259
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot259"
+    pose [-11.571428571428571 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 260
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot260"
+    pose [-12.285714285714286 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 261
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot261"
+    pose [-12.285714285714286 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 262
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot262"
+    pose [-12.285714285714286 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 263
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot263"
+    pose [-12.285714285714286 -4.7 0 0]
+    color "red"
+    fiducial_return 264
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot264"
+    pose [-12.285714285714286 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 265
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot265"
+    pose [-12.285714285714286 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 266
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot266"
+    pose [-12.285714285714286 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 267
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot267"
+    pose [-12.285714285714286 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 268
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot268"
+    pose [-12.285714285714286 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 269
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot269"
+    pose [-12.285714285714286 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 270
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot270"
+    pose [-12.285714285714286 0.3 0 0]
+    color "green"
+    fiducial_return 271
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot271"
+    pose [-12.285714285714286 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 272
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot272"
+    pose [-12.285714285714286 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 273
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot273"
+    pose [-12.285714285714286 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 274
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot274"
+    pose [-12.285714285714286 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 275
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot275"
+    pose [-12.285714285714286 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 276
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot276"
+    pose [-12.285714285714286 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 277
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot277"
+    pose [-12.285714285714286 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 278
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot278"
+    pose [-12.285714285714286 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 279
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot279"
+    pose [-12.285714285714286 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 280
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot280"
+    pose [-13.0 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 281
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot281"
+    pose [-13.0 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 282
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot282"
+    pose [-13.0 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 283
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot283"
+    pose [-13.0 -4.7 0 0]
+    color "red"
+    fiducial_return 284
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot284"
+    pose [-13.0 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 285
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot285"
+    pose [-13.0 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 286
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot286"
+    pose [-13.0 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 287
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot287"
+    pose [-13.0 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 288
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot288"
+    pose [-13.0 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 289
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot289"
+    pose [-13.0 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 290
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot290"
+    pose [-13.0 0.3 0 0]
+    color "green"
+    fiducial_return 291
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot291"
+    pose [-13.0 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 292
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot292"
+    pose [-13.0 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 293
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot293"
+    pose [-13.0 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 294
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot294"
+    pose [-13.0 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 295
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot295"
+    pose [-13.0 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 296
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot296"
+    pose [-13.0 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 297
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot297"
+    pose [-13.0 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 298
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot298"
+    pose [-13.0 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 299
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot299"
+    pose [-13.0 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 300
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot300"
+    pose [-13.714285714285715 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 301
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot301"
+    pose [-13.714285714285715 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 302
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot302"
+    pose [-13.714285714285715 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 303
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot303"
+    pose [-13.714285714285715 -4.7 0 0]
+    color "red"
+    fiducial_return 304
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot304"
+    pose [-13.714285714285715 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 305
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot305"
+    pose [-13.714285714285715 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 306
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot306"
+    pose [-13.714285714285715 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 307
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot307"
+    pose [-13.714285714285715 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 308
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot308"
+    pose [-13.714285714285715 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 309
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot309"
+    pose [-13.714285714285715 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 310
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot310"
+    pose [-13.714285714285715 0.3 0 0]
+    color "green"
+    fiducial_return 311
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot311"
+    pose [-13.714285714285715 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 312
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot312"
+    pose [-13.714285714285715 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 313
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot313"
+    pose [-13.714285714285715 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 314
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot314"
+    pose [-13.714285714285715 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 315
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot315"
+    pose [-13.714285714285715 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 316
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot316"
+    pose [-13.714285714285715 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 317
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot317"
+    pose [-13.714285714285715 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 318
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot318"
+    pose [-13.714285714285715 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 319
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot319"
+    pose [-13.714285714285715 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 320
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot320"
+    pose [-14.428571428571429 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 321
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot321"
+    pose [-14.428571428571429 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 322
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot322"
+    pose [-14.428571428571429 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 323
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot323"
+    pose [-14.428571428571429 -4.7 0 0]
+    color "red"
+    fiducial_return 324
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot324"
+    pose [-14.428571428571429 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 325
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot325"
+    pose [-14.428571428571429 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 326
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot326"
+    pose [-14.428571428571429 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 327
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot327"
+    pose [-14.428571428571429 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 328
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot328"
+    pose [-14.428571428571429 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 329
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot329"
+    pose [-14.428571428571429 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 330
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot330"
+    pose [-14.428571428571429 0.3 0 0]
+    color "green"
+    fiducial_return 331
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot331"
+    pose [-14.428571428571429 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 332
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot332"
+    pose [-14.428571428571429 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 333
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot333"
+    pose [-14.428571428571429 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 334
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot334"
+    pose [-14.428571428571429 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 335
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot335"
+    pose [-14.428571428571429 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 336
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot336"
+    pose [-14.428571428571429 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 337
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot337"
+    pose [-14.428571428571429 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 338
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot338"
+    pose [-14.428571428571429 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 339
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot339"
+    pose [-14.428571428571429 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 340
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot340"
+    pose [-15.142857142857144 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 341
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot341"
+    pose [-15.142857142857144 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 342
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot342"
+    pose [-15.142857142857144 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 343
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot343"
+    pose [-15.142857142857144 -4.7 0 0]
+    color "red"
+    fiducial_return 344
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot344"
+    pose [-15.142857142857144 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 345
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot345"
+    pose [-15.142857142857144 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 346
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot346"
+    pose [-15.142857142857144 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 347
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot347"
+    pose [-15.142857142857144 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 348
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot348"
+    pose [-15.142857142857144 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 349
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot349"
+    pose [-15.142857142857144 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 350
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot350"
+    pose [-15.142857142857144 0.3 0 0]
+    color "green"
+    fiducial_return 351
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot351"
+    pose [-15.142857142857144 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 352
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot352"
+    pose [-15.142857142857144 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 353
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot353"
+    pose [-15.142857142857144 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 354
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot354"
+    pose [-15.142857142857144 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 355
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot355"
+    pose [-15.142857142857144 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 356
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot356"
+    pose [-15.142857142857144 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 357
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot357"
+    pose [-15.142857142857144 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 358
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot358"
+    pose [-15.142857142857144 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 359
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot359"
+    pose [-15.142857142857144 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 360
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot360"
+    pose [-15.857142857142858 -6.842857142857143 0 0]
+    color "blue"
+    fiducial_return 361
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot361"
+    pose [-15.857142857142858 -6.128571428571429 0 0]
+    color "blue"
+    fiducial_return 362
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot362"
+    pose [-15.857142857142858 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 363
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot363"
+    pose [-15.857142857142858 -4.7 0 0]
+    color "red"
+    fiducial_return 364
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot364"
+    pose [-15.857142857142858 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 365
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot365"
+    pose [-15.857142857142858 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 366
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot366"
+    pose [-15.857142857142858 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 367
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot367"
+    pose [-15.857142857142858 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 368
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot368"
+    pose [-15.857142857142858 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 369
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot369"
+    pose [-15.857142857142858 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 370
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot370"
+    pose [-15.857142857142858 0.3 0 0]
+    color "green"
+    fiducial_return 371
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot371"
+    pose [-15.857142857142858 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 372
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot372"
+    pose [-15.857142857142858 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 373
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot373"
+    pose [-15.857142857142858 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 374
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot374"
+    pose [-15.857142857142858 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 375
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot375"
+    pose [-15.857142857142858 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 376
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot376"
+    pose [-15.857142857142858 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 377
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot377"
+    pose [-15.857142857142858 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 378
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot378"
+    pose [-15.857142857142858 6.014285714285714 0 0]
+    color "blue"
+    fiducial_return 379
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot379"
+    pose [-15.857142857142858 6.7285714285714295 0 0]
+    color "blue"
+    fiducial_return 380
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot380"
+    pose [-16.571428571428573 -6.842857142857143 0 0]
+    color "red"
+    fiducial_return 381
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot381"
+    pose [-16.571428571428573 -6.128571428571429 0 0]
+    color "red"
+    fiducial_return 382
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot382"
+    pose [-16.571428571428573 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 383
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot383"
+    pose [-16.571428571428573 -4.7 0 0]
+    color "red"
+    fiducial_return 384
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot384"
+    pose [-16.571428571428573 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 385
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot385"
+    pose [-16.571428571428573 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 386
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot386"
+    pose [-16.571428571428573 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 387
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot387"
+    pose [-16.571428571428573 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 388
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot388"
+    pose [-16.571428571428573 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 389
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot389"
+    pose [-16.571428571428573 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 390
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot390"
+    pose [-16.571428571428573 0.3 0 0]
+    color "green"
+    fiducial_return 391
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot391"
+    pose [-16.571428571428573 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 392
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot392"
+    pose [-16.571428571428573 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 393
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot393"
+    pose [-16.571428571428573 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 394
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot394"
+    pose [-16.571428571428573 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 395
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot395"
+    pose [-16.571428571428573 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 396
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot396"
+    pose [-16.571428571428573 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 397
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot397"
+    pose [-16.571428571428573 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 398
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot398"
+    pose [-16.571428571428573 6.014285714285714 0 0]
+    color "red"
+    fiducial_return 399
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot399"
+    pose [-16.571428571428573 6.7285714285714295 0 0]
+    color "red"
+    fiducial_return 400
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot400"
+    pose [-17.285714285714285 -6.842857142857143 0 0]
+    color "red"
+    fiducial_return 401
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot401"
+    pose [-17.285714285714285 -6.128571428571429 0 0]
+    color "red"
+    fiducial_return 402
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot402"
+    pose [-17.285714285714285 -5.414285714285715 0 0]
+    color "red"
+    fiducial_return 403
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot403"
+    pose [-17.285714285714285 -4.7 0 0]
+    color "red"
+    fiducial_return 404
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot404"
+    pose [-17.285714285714285 -3.9857142857142867 0 0]
+    color "red"
+    fiducial_return 405
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot405"
+    pose [-17.285714285714285 -3.271428571428572 0 0]
+    color "red"
+    fiducial_return 406
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot406"
+    pose [-17.285714285714285 -2.557142857142858 0 0]
+    color "red"
+    fiducial_return 407
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot407"
+    pose [-17.285714285714285 -1.8428571428571432 0 0]
+    color "red"
+    fiducial_return 408
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot408"
+    pose [-17.285714285714285 -1.1285714285714288 0 0]
+    color "red"
+    fiducial_return 409
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot409"
+    pose [-17.285714285714285 -0.4142857142857144 0 0]
+    color "cyan"
+    fiducial_return 410
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot410"
+    pose [-17.285714285714285 0.3 0 0]
+    color "green"
+    fiducial_return 411
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot411"
+    pose [-17.285714285714285 1.0142857142857145 0 0]
+    color "red"
+    fiducial_return 412
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot412"
+    pose [-17.285714285714285 1.728571428571428 0 0]
+    color "red"
+    fiducial_return 413
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot413"
+    pose [-17.285714285714285 2.442857142857143 0 0]
+    color "red"
+    fiducial_return 414
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot414"
+    pose [-17.285714285714285 3.1571428571428566 0 0]
+    color "red"
+    fiducial_return 415
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot415"
+    pose [-17.285714285714285 3.871428571428572 0 0]
+    color "red"
+    fiducial_return 416
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot416"
+    pose [-17.285714285714285 4.585714285714285 0 0]
+    color "red"
+    fiducial_return 417
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot417"
+    pose [-17.285714285714285 5.300000000000001 0 0]
+    color "red"
+    fiducial_return 418
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot418"
+    pose [-17.285714285714285 6.014285714285714 0 0]
+    color "red"
+    fiducial_return 419
+    ranger_return -1
+    obstacle_return 0
+)
+robot
+(
+    name "robot419"
+    pose [-17.285714285714285 6.7285714285714295 0 0]
+    color "red"
+    fiducial_return 420
+    ranger_return -1
+    obstacle_return 0
+)
+
+# this is the head wind drag 
+define obstcale_b model
+(   
+    bitmap "bitmaps/circle.png"
+    gui_nose 0
+    gui_grid 0
+    gui_move 0
+    gui_outline 0
+    gripper_return 0
+    fiducial_return 0
+    ranger_return 2
+	size [0.25 0.25 1.5]
+	color "orange"
+)
+
+# distributed with 0.618 ratio
+obstcale_b(pose [-1.1 -6.21 0 0]) 
+obstcale_b(pose [-0.7 -5.37 0 0]) 
+obstcale_b(pose [0 -4 0 0])  
+obstcale_b(pose [1.1 -1.79 0 0])   
+obstcale_b(pose [1.1 1.79 0 0])
+obstcale_b(pose [0 4 0 0])
+obstcale_b(pose [-0.7 5.37 0 0])
+obstcale_b(pose [-1.1 6.21 0 0])
+
+# The end.
+
