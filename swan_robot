@@ -1,0 +1,3376 @@
+# .cfg file for configuring the Player app 
+# Authors: Ce MA, Jun Steed HUANG, 2018
+# This is a configuration containing multiple robots and a set of communications sockets
+# The goal is for majority robots move against wind faster by team formation
+driver
+(		
+    name "stage"
+    plugin "stageplugin"
+
+    provides ["simulation:0"]
+
+    # load the named file into the simulator
+    worldfile "obstacle_world.world"	
+)
+        
+# robot0
+driver
+(
+    name "stage"
+	provides ["7000:position2d:0" "7000:ranger:0" "7000:fiducial:0"]
+	model "robot0"
+)
+
+# robot1
+driver
+(
+    name "stage"
+	provides ["7001:position2d:0" "7001:ranger:0" "7001:fiducial:0"]
+	model "robot1"
+)
+
+# robot2
+driver
+(
+    name "stage"
+	provides ["7002:position2d:0" "7002:ranger:0" "7002:fiducial:0"]
+	model "robot2"
+)
+
+# robot3
+driver
+(
+    name "stage"
+	provides ["7003:position2d:0" "7003:ranger:0" "7003:fiducial:0"]
+	model "robot3"
+)
+
+# robot4
+driver
+(
+    name "stage"
+	provides ["7004:position2d:0" "7004:ranger:0" "7004:fiducial:0"]
+	model "robot4"
+)
+
+# robot5
+driver
+(
+    name "stage"
+	provides ["7005:position2d:0" "7005:ranger:0" "7005:fiducial:0"]
+	model "robot5"
+)
+
+# robot6
+driver
+(
+    name "stage"
+	provides ["7006:position2d:0" "7006:ranger:0" "7006:fiducial:0"]
+	model "robot6"
+)
+
+# robot7
+driver
+(
+    name "stage"
+	provides ["7007:position2d:0" "7007:ranger:0" "7007:fiducial:0"]
+	model "robot7"
+)
+
+# robot8
+driver
+(
+    name "stage"
+	provides ["7008:position2d:0" "7008:ranger:0" "7008:fiducial:0"]
+	model "robot8"
+)
+
+# robot9
+driver
+(
+    name "stage"
+	provides ["7009:position2d:0" "7009:ranger:0" "7009:fiducial:0"]
+	model "robot9"
+)
+
+# robot10
+driver
+(
+    name "stage"
+	provides ["7010:position2d:0" "7010:ranger:0" "7010:fiducial:0"]
+	model "robot10"
+)
+
+# robot11
+driver
+(
+    name "stage"
+	provides ["7011:position2d:0" "7011:ranger:0" "7011:fiducial:0"]
+	model "robot11"
+)
+
+# robot12
+driver
+(
+    name "stage"
+	provides ["7012:position2d:0" "7012:ranger:0" "7012:fiducial:0"]
+	model "robot12"
+)
+
+# robot13
+driver
+(
+    name "stage"
+	provides ["7013:position2d:0" "7013:ranger:0" "7013:fiducial:0"]
+	model "robot13"
+)
+
+# robot14
+driver
+(
+    name "stage"
+	provides ["7014:position2d:0" "7014:ranger:0" "7014:fiducial:0"]
+	model "robot14"
+)
+
+# robot15
+driver
+(
+    name "stage"
+	provides ["7015:position2d:0" "7015:ranger:0" "7015:fiducial:0"]
+	model "robot15"
+)
+
+# robot16
+driver
+(
+    name "stage"
+	provides ["7016:position2d:0" "7016:ranger:0" "7016:fiducial:0"]
+	model "robot16"
+)
+
+# robot17
+driver
+(
+    name "stage"
+	provides ["7017:position2d:0" "7017:ranger:0" "7017:fiducial:0"]
+	model "robot17"
+)
+
+# robot18
+driver
+(
+    name "stage"
+	provides ["7018:position2d:0" "7018:ranger:0" "7018:fiducial:0"]
+	model "robot18"
+)
+
+# robot19
+driver
+(
+    name "stage"
+	provides ["7019:position2d:0" "7019:ranger:0" "7019:fiducial:0"]
+	model "robot19"
+)
+
+# robot20
+driver
+(
+    name "stage"
+	provides ["7020:position2d:0" "7020:ranger:0" "7020:fiducial:0"]
+	model "robot20"
+)
+
+# robot21
+driver
+(
+    name "stage"
+	provides ["7021:position2d:0" "7021:ranger:0" "7021:fiducial:0"]
+	model "robot21"
+)
+
+# robot22
+driver
+(
+    name "stage"
+	provides ["7022:position2d:0" "7022:ranger:0" "7022:fiducial:0"]
+	model "robot22"
+)
+
+# robot23
+driver
+(
+    name "stage"
+	provides ["7023:position2d:0" "7023:ranger:0" "7023:fiducial:0"]
+	model "robot23"
+)
+
+# robot24
+driver
+(
+    name "stage"
+	provides ["7024:position2d:0" "7024:ranger:0" "7024:fiducial:0"]
+	model "robot24"
+)
+
+# robot25
+driver
+(
+    name "stage"
+	provides ["7025:position2d:0" "7025:ranger:0" "7025:fiducial:0"]
+	model "robot25"
+)
+
+# robot26
+driver
+(
+    name "stage"
+	provides ["7026:position2d:0" "7026:ranger:0" "7026:fiducial:0"]
+	model "robot26"
+)
+
+# robot27
+driver
+(
+    name "stage"
+	provides ["7027:position2d:0" "7027:ranger:0" "7027:fiducial:0"]
+	model "robot27"
+)
+
+# robot28
+driver
+(
+    name "stage"
+	provides ["7028:position2d:0" "7028:ranger:0" "7028:fiducial:0"]
+	model "robot28"
+)
+
+# robot29
+driver
+(
+    name "stage"
+	provides ["7029:position2d:0" "7029:ranger:0" "7029:fiducial:0"]
+	model "robot29"
+)
+
+# robot30
+driver
+(
+    name "stage"
+	provides ["7030:position2d:0" "7030:ranger:0" "7030:fiducial:0"]
+	model "robot30"
+)
+
+# robot31
+driver
+(
+    name "stage"
+	provides ["7031:position2d:0" "7031:ranger:0" "7031:fiducial:0"]
+	model "robot31"
+)
+
+# robot32
+driver
+(
+    name "stage"
+	provides ["7032:position2d:0" "7032:ranger:0" "7032:fiducial:0"]
+	model "robot32"
+)
+
+# robot33
+driver
+(
+    name "stage"
+	provides ["7033:position2d:0" "7033:ranger:0" "7033:fiducial:0"]
+	model "robot33"
+)
+
+# robot34
+driver
+(
+    name "stage"
+	provides ["7034:position2d:0" "7034:ranger:0" "7034:fiducial:0"]
+	model "robot34"
+)
+
+# robot35
+driver
+(
+    name "stage"
+	provides ["7035:position2d:0" "7035:ranger:0" "7035:fiducial:0"]
+	model "robot35"
+)
+
+# robot36
+driver
+(
+    name "stage"
+	provides ["7036:position2d:0" "7036:ranger:0" "7036:fiducial:0"]
+	model "robot36"
+)
+
+# robot37
+driver
+(
+    name "stage"
+	provides ["7037:position2d:0" "7037:ranger:0" "7037:fiducial:0"]
+	model "robot37"
+)
+
+# robot38
+driver
+(
+    name "stage"
+	provides ["7038:position2d:0" "7038:ranger:0" "7038:fiducial:0"]
+	model "robot38"
+)
+
+# robot39
+driver
+(
+    name "stage"
+	provides ["7039:position2d:0" "7039:ranger:0" "7039:fiducial:0"]
+	model "robot39"
+)
+
+# robot40
+driver
+(
+    name "stage"
+	provides ["7040:position2d:0" "7040:ranger:0" "7040:fiducial:0"]
+	model "robot40"
+)
+
+# robot41
+driver
+(
+    name "stage"
+	provides ["7041:position2d:0" "7041:ranger:0" "7041:fiducial:0"]
+	model "robot41"
+)
+
+# robot42
+driver
+(
+    name "stage"
+	provides ["7042:position2d:0" "7042:ranger:0" "7042:fiducial:0"]
+	model "robot42"
+)
+
+# robot43
+driver
+(
+    name "stage"
+	provides ["7043:position2d:0" "7043:ranger:0" "7043:fiducial:0"]
+	model "robot43"
+)
+
+# robot44
+driver
+(
+    name "stage"
+	provides ["7044:position2d:0" "7044:ranger:0" "7044:fiducial:0"]
+	model "robot44"
+)
+
+# robot45
+driver
+(
+    name "stage"
+	provides ["7045:position2d:0" "7045:ranger:0" "7045:fiducial:0"]
+	model "robot45"
+)
+
+# robot46
+driver
+(
+    name "stage"
+	provides ["7046:position2d:0" "7046:ranger:0" "7046:fiducial:0"]
+	model "robot46"
+)
+
+# robot47
+driver
+(
+    name "stage"
+	provides ["7047:position2d:0" "7047:ranger:0" "7047:fiducial:0"]
+	model "robot47"
+)
+
+# robot48
+driver
+(
+    name "stage"
+	provides ["7048:position2d:0" "7048:ranger:0" "7048:fiducial:0"]
+	model "robot48"
+)
+
+# robot49
+driver
+(
+    name "stage"
+	provides ["7049:position2d:0" "7049:ranger:0" "7049:fiducial:0"]
+	model "robot49"
+)
+
+# robot50
+driver
+(
+    name "stage"
+	provides ["7050:position2d:0" "7050:ranger:0" "7050:fiducial:0"]
+	model "robot50"
+)
+
+# robot51
+driver
+(
+    name "stage"
+	provides ["7051:position2d:0" "7051:ranger:0" "7051:fiducial:0"]
+	model "robot51"
+)
+
+# robot52
+driver
+(
+    name "stage"
+	provides ["7052:position2d:0" "7052:ranger:0" "7052:fiducial:0"]
+	model "robot52"
+)
+
+# robot53
+driver
+(
+    name "stage"
+	provides ["7053:position2d:0" "7053:ranger:0" "7053:fiducial:0"]
+	model "robot53"
+)
+
+# robot54
+driver
+(
+    name "stage"
+	provides ["7054:position2d:0" "7054:ranger:0" "7054:fiducial:0"]
+	model "robot54"
+)
+
+# robot55
+driver
+(
+    name "stage"
+	provides ["7055:position2d:0" "7055:ranger:0" "7055:fiducial:0"]
+	model "robot55"
+)
+
+# robot56
+driver
+(
+    name "stage"
+	provides ["7056:position2d:0" "7056:ranger:0" "7056:fiducial:0"]
+	model "robot56"
+)
+
+# robot57
+driver
+(
+    name "stage"
+	provides ["7057:position2d:0" "7057:ranger:0" "7057:fiducial:0"]
+	model "robot57"
+)
+
+# robot58
+driver
+(
+    name "stage"
+	provides ["7058:position2d:0" "7058:ranger:0" "7058:fiducial:0"]
+	model "robot58"
+)
+
+# robot59
+driver
+(
+    name "stage"
+	provides ["7059:position2d:0" "7059:ranger:0" "7059:fiducial:0"]
+	model "robot59"
+)
+
+# robot60
+driver
+(
+    name "stage"
+	provides ["7060:position2d:0" "7060:ranger:0" "7060:fiducial:0"]
+	model "robot60"
+)
+
+# robot61
+driver
+(
+    name "stage"
+	provides ["7061:position2d:0" "7061:ranger:0" "7061:fiducial:0"]
+	model "robot61"
+)
+
+# robot62
+driver
+(
+    name "stage"
+	provides ["7062:position2d:0" "7062:ranger:0" "7062:fiducial:0"]
+	model "robot62"
+)
+
+# robot63
+driver
+(
+    name "stage"
+	provides ["7063:position2d:0" "7063:ranger:0" "7063:fiducial:0"]
+	model "robot63"
+)
+
+# robot64
+driver
+(
+    name "stage"
+	provides ["7064:position2d:0" "7064:ranger:0" "7064:fiducial:0"]
+	model "robot64"
+)
+
+# robot65
+driver
+(
+    name "stage"
+	provides ["7065:position2d:0" "7065:ranger:0" "7065:fiducial:0"]
+	model "robot65"
+)
+
+# robot66
+driver
+(
+    name "stage"
+	provides ["7066:position2d:0" "7066:ranger:0" "7066:fiducial:0"]
+	model "robot66"
+)
+
+# robot67
+driver
+(
+    name "stage"
+	provides ["7067:position2d:0" "7067:ranger:0" "7067:fiducial:0"]
+	model "robot67"
+)
+
+# robot68
+driver
+(
+    name "stage"
+	provides ["7068:position2d:0" "7068:ranger:0" "7068:fiducial:0"]
+	model "robot68"
+)
+
+# robot69
+driver
+(
+    name "stage"
+	provides ["7069:position2d:0" "7069:ranger:0" "7069:fiducial:0"]
+	model "robot69"
+)
+
+# robot70
+driver
+(
+    name "stage"
+	provides ["7070:position2d:0" "7070:ranger:0" "7070:fiducial:0"]
+	model "robot70"
+)
+
+# robot71
+driver
+(
+    name "stage"
+	provides ["7071:position2d:0" "7071:ranger:0" "7071:fiducial:0"]
+	model "robot71"
+)
+
+# robot72
+driver
+(
+    name "stage"
+	provides ["7072:position2d:0" "7072:ranger:0" "7072:fiducial:0"]
+	model "robot72"
+)
+
+# robot73
+driver
+(
+    name "stage"
+	provides ["7073:position2d:0" "7073:ranger:0" "7073:fiducial:0"]
+	model "robot73"
+)
+
+# robot74
+driver
+(
+    name "stage"
+	provides ["7074:position2d:0" "7074:ranger:0" "7074:fiducial:0"]
+	model "robot74"
+)
+
+# robot75
+driver
+(
+    name "stage"
+	provides ["7075:position2d:0" "7075:ranger:0" "7075:fiducial:0"]
+	model "robot75"
+)
+
+# robot76
+driver
+(
+    name "stage"
+	provides ["7076:position2d:0" "7076:ranger:0" "7076:fiducial:0"]
+	model "robot76"
+)
+
+# robot77
+driver
+(
+    name "stage"
+	provides ["7077:position2d:0" "7077:ranger:0" "7077:fiducial:0"]
+	model "robot77"
+)
+
+# robot78
+driver
+(
+    name "stage"
+	provides ["7078:position2d:0" "7078:ranger:0" "7078:fiducial:0"]
+	model "robot78"
+)
+
+# robot79
+driver
+(
+    name "stage"
+	provides ["7079:position2d:0" "7079:ranger:0" "7079:fiducial:0"]
+	model "robot79"
+)
+
+# robot80
+driver
+(
+    name "stage"
+	provides ["7080:position2d:0" "7080:ranger:0" "7080:fiducial:0"]
+	model "robot80"
+)
+
+# robot81
+driver
+(
+    name "stage"
+	provides ["7081:position2d:0" "7081:ranger:0" "7081:fiducial:0"]
+	model "robot81"
+)
+
+# robot82
+driver
+(
+    name "stage"
+	provides ["7082:position2d:0" "7082:ranger:0" "7082:fiducial:0"]
+	model "robot82"
+)
+
+# robot83
+driver
+(
+    name "stage"
+	provides ["7083:position2d:0" "7083:ranger:0" "7083:fiducial:0"]
+	model "robot83"
+)
+
+# robot84
+driver
+(
+    name "stage"
+	provides ["7084:position2d:0" "7084:ranger:0" "7084:fiducial:0"]
+	model "robot84"
+)
+
+# robot85
+driver
+(
+    name "stage"
+	provides ["7085:position2d:0" "7085:ranger:0" "7085:fiducial:0"]
+	model "robot85"
+)
+
+# robot86
+driver
+(
+    name "stage"
+	provides ["7086:position2d:0" "7086:ranger:0" "7086:fiducial:0"]
+	model "robot86"
+)
+
+# robot87
+driver
+(
+    name "stage"
+	provides ["7087:position2d:0" "7087:ranger:0" "7087:fiducial:0"]
+	model "robot87"
+)
+
+# robot88
+driver
+(
+    name "stage"
+	provides ["7088:position2d:0" "7088:ranger:0" "7088:fiducial:0"]
+	model "robot88"
+)
+
+# robot89
+driver
+(
+    name "stage"
+	provides ["7089:position2d:0" "7089:ranger:0" "7089:fiducial:0"]
+	model "robot89"
+)
+
+# robot90
+driver
+(
+    name "stage"
+	provides ["7090:position2d:0" "7090:ranger:0" "7090:fiducial:0"]
+	model "robot90"
+)
+
+# robot91
+driver
+(
+    name "stage"
+	provides ["7091:position2d:0" "7091:ranger:0" "7091:fiducial:0"]
+	model "robot91"
+)
+
+# robot92
+driver
+(
+    name "stage"
+	provides ["7092:position2d:0" "7092:ranger:0" "7092:fiducial:0"]
+	model "robot92"
+)
+
+# robot93
+driver
+(
+    name "stage"
+	provides ["7093:position2d:0" "7093:ranger:0" "7093:fiducial:0"]
+	model "robot93"
+)
+
+# robot94
+driver
+(
+    name "stage"
+	provides ["7094:position2d:0" "7094:ranger:0" "7094:fiducial:0"]
+	model "robot94"
+)
+
+# robot95
+driver
+(
+    name "stage"
+	provides ["7095:position2d:0" "7095:ranger:0" "7095:fiducial:0"]
+	model "robot95"
+)
+
+# robot96
+driver
+(
+    name "stage"
+	provides ["7096:position2d:0" "7096:ranger:0" "7096:fiducial:0"]
+	model "robot96"
+)
+
+# robot97
+driver
+(
+    name "stage"
+	provides ["7097:position2d:0" "7097:ranger:0" "7097:fiducial:0"]
+	model "robot97"
+)
+
+# robot98
+driver
+(
+    name "stage"
+	provides ["7098:position2d:0" "7098:ranger:0" "7098:fiducial:0"]
+	model "robot98"
+)
+
+# robot99
+driver
+(
+    name "stage"
+	provides ["7099:position2d:0" "7099:ranger:0" "7099:fiducial:0"]
+	model "robot99"
+)
+
+# robot100
+driver
+(
+    name "stage"
+	provides ["7100:position2d:0" "7100:ranger:0" "7100:fiducial:0"]
+	model "robot100"
+)
+
+# robot101
+driver
+(
+    name "stage"
+	provides ["7101:position2d:0" "7101:ranger:0" "7101:fiducial:0"]
+	model "robot101"
+)
+
+# robot102
+driver
+(
+    name "stage"
+	provides ["7102:position2d:0" "7102:ranger:0" "7102:fiducial:0"]
+	model "robot102"
+)
+
+# robot103
+driver
+(
+    name "stage"
+	provides ["7103:position2d:0" "7103:ranger:0" "7103:fiducial:0"]
+	model "robot103"
+)
+
+# robot104
+driver
+(
+    name "stage"
+	provides ["7104:position2d:0" "7104:ranger:0" "7104:fiducial:0"]
+	model "robot104"
+)
+
+# robot105
+driver
+(
+    name "stage"
+	provides ["7105:position2d:0" "7105:ranger:0" "7105:fiducial:0"]
+	model "robot105"
+)
+
+# robot106
+driver
+(
+    name "stage"
+	provides ["7106:position2d:0" "7106:ranger:0" "7106:fiducial:0"]
+	model "robot106"
+)
+
+# robot107
+driver
+(
+    name "stage"
+	provides ["7107:position2d:0" "7107:ranger:0" "7107:fiducial:0"]
+	model "robot107"
+)
+
+# robot108
+driver
+(
+    name "stage"
+	provides ["7108:position2d:0" "7108:ranger:0" "7108:fiducial:0"]
+	model "robot108"
+)
+
+# robot109
+driver
+(
+    name "stage"
+	provides ["7109:position2d:0" "7109:ranger:0" "7109:fiducial:0"]
+	model "robot109"
+)
+
+# robot110
+driver
+(
+    name "stage"
+	provides ["7110:position2d:0" "7110:ranger:0" "7110:fiducial:0"]
+	model "robot110"
+)
+
+# robot111
+driver
+(
+    name "stage"
+	provides ["7111:position2d:0" "7111:ranger:0" "7111:fiducial:0"]
+	model "robot111"
+)
+
+# robot112
+driver
+(
+    name "stage"
+	provides ["7112:position2d:0" "7112:ranger:0" "7112:fiducial:0"]
+	model "robot112"
+)
+
+# robot113
+driver
+(
+    name "stage"
+	provides ["7113:position2d:0" "7113:ranger:0" "7113:fiducial:0"]
+	model "robot113"
+)
+
+# robot114
+driver
+(
+    name "stage"
+	provides ["7114:position2d:0" "7114:ranger:0" "7114:fiducial:0"]
+	model "robot114"
+)
+
+# robot115
+driver
+(
+    name "stage"
+	provides ["7115:position2d:0" "7115:ranger:0" "7115:fiducial:0"]
+	model "robot115"
+)
+
+# robot116
+driver
+(
+    name "stage"
+	provides ["7116:position2d:0" "7116:ranger:0" "7116:fiducial:0"]
+	model "robot116"
+)
+
+# robot117
+driver
+(
+    name "stage"
+	provides ["7117:position2d:0" "7117:ranger:0" "7117:fiducial:0"]
+	model "robot117"
+)
+
+# robot118
+driver
+(
+    name "stage"
+	provides ["7118:position2d:0" "7118:ranger:0" "7118:fiducial:0"]
+	model "robot118"
+)
+
+# robot119
+driver
+(
+    name "stage"
+	provides ["7119:position2d:0" "7119:ranger:0" "7119:fiducial:0"]
+	model "robot119"
+)
+
+# robot120
+driver
+(
+    name "stage"
+	provides ["7120:position2d:0" "7120:ranger:0" "7120:fiducial:0"]
+	model "robot120"
+)
+
+# robot121
+driver
+(
+    name "stage"
+	provides ["7121:position2d:0" "7121:ranger:0" "7121:fiducial:0"]
+	model "robot121"
+)
+
+# robot122
+driver
+(
+    name "stage"
+	provides ["7122:position2d:0" "7122:ranger:0" "7122:fiducial:0"]
+	model "robot122"
+)
+
+# robot123
+driver
+(
+    name "stage"
+	provides ["7123:position2d:0" "7123:ranger:0" "7123:fiducial:0"]
+	model "robot123"
+)
+
+# robot124
+driver
+(
+    name "stage"
+	provides ["7124:position2d:0" "7124:ranger:0" "7124:fiducial:0"]
+	model "robot124"
+)
+
+# robot125
+driver
+(
+    name "stage"
+	provides ["7125:position2d:0" "7125:ranger:0" "7125:fiducial:0"]
+	model "robot125"
+)
+
+# robot126
+driver
+(
+    name "stage"
+	provides ["7126:position2d:0" "7126:ranger:0" "7126:fiducial:0"]
+	model "robot126"
+)
+
+# robot127
+driver
+(
+    name "stage"
+	provides ["7127:position2d:0" "7127:ranger:0" "7127:fiducial:0"]
+	model "robot127"
+)
+
+# robot128
+driver
+(
+    name "stage"
+	provides ["7128:position2d:0" "7128:ranger:0" "7128:fiducial:0"]
+	model "robot128"
+)
+
+# robot129
+driver
+(
+    name "stage"
+	provides ["7129:position2d:0" "7129:ranger:0" "7129:fiducial:0"]
+	model "robot129"
+)
+
+# robot130
+driver
+(
+    name "stage"
+	provides ["7130:position2d:0" "7130:ranger:0" "7130:fiducial:0"]
+	model "robot130"
+)
+
+# robot131
+driver
+(
+    name "stage"
+	provides ["7131:position2d:0" "7131:ranger:0" "7131:fiducial:0"]
+	model "robot131"
+)
+
+# robot132
+driver
+(
+    name "stage"
+	provides ["7132:position2d:0" "7132:ranger:0" "7132:fiducial:0"]
+	model "robot132"
+)
+
+# robot133
+driver
+(
+    name "stage"
+	provides ["7133:position2d:0" "7133:ranger:0" "7133:fiducial:0"]
+	model "robot133"
+)
+
+# robot134
+driver
+(
+    name "stage"
+	provides ["7134:position2d:0" "7134:ranger:0" "7134:fiducial:0"]
+	model "robot134"
+)
+
+# robot135
+driver
+(
+    name "stage"
+	provides ["7135:position2d:0" "7135:ranger:0" "7135:fiducial:0"]
+	model "robot135"
+)
+
+# robot136
+driver
+(
+    name "stage"
+	provides ["7136:position2d:0" "7136:ranger:0" "7136:fiducial:0"]
+	model "robot136"
+)
+
+# robot137
+driver
+(
+    name "stage"
+	provides ["7137:position2d:0" "7137:ranger:0" "7137:fiducial:0"]
+	model "robot137"
+)
+
+# robot138
+driver
+(
+    name "stage"
+	provides ["7138:position2d:0" "7138:ranger:0" "7138:fiducial:0"]
+	model "robot138"
+)
+
+# robot139
+driver
+(
+    name "stage"
+	provides ["7139:position2d:0" "7139:ranger:0" "7139:fiducial:0"]
+	model "robot139"
+)
+
+# robot140
+driver
+(
+    name "stage"
+	provides ["7140:position2d:0" "7140:ranger:0" "7140:fiducial:0"]
+	model "robot140"
+)
+
+# robot141
+driver
+(
+    name "stage"
+	provides ["7141:position2d:0" "7141:ranger:0" "7141:fiducial:0"]
+	model "robot141"
+)
+
+# robot142
+driver
+(
+    name "stage"
+	provides ["7142:position2d:0" "7142:ranger:0" "7142:fiducial:0"]
+	model "robot142"
+)
+
+# robot143
+driver
+(
+    name "stage"
+	provides ["7143:position2d:0" "7143:ranger:0" "7143:fiducial:0"]
+	model "robot143"
+)
+
+# robot144
+driver
+(
+    name "stage"
+	provides ["7144:position2d:0" "7144:ranger:0" "7144:fiducial:0"]
+	model "robot144"
+)
+
+# robot145
+driver
+(
+    name "stage"
+	provides ["7145:position2d:0" "7145:ranger:0" "7145:fiducial:0"]
+	model "robot145"
+)
+
+# robot146
+driver
+(
+    name "stage"
+	provides ["7146:position2d:0" "7146:ranger:0" "7146:fiducial:0"]
+	model "robot146"
+)
+
+# robot147
+driver
+(
+    name "stage"
+	provides ["7147:position2d:0" "7147:ranger:0" "7147:fiducial:0"]
+	model "robot147"
+)
+
+# robot148
+driver
+(
+    name "stage"
+	provides ["7148:position2d:0" "7148:ranger:0" "7148:fiducial:0"]
+	model "robot148"
+)
+
+# robot149
+driver
+(
+    name "stage"
+	provides ["7149:position2d:0" "7149:ranger:0" "7149:fiducial:0"]
+	model "robot149"
+)
+
+# robot150
+driver
+(
+    name "stage"
+	provides ["7150:position2d:0" "7150:ranger:0" "7150:fiducial:0"]
+	model "robot150"
+)
+
+# robot151
+driver
+(
+    name "stage"
+	provides ["7151:position2d:0" "7151:ranger:0" "7151:fiducial:0"]
+	model "robot151"
+)
+
+# robot152
+driver
+(
+    name "stage"
+	provides ["7152:position2d:0" "7152:ranger:0" "7152:fiducial:0"]
+	model "robot152"
+)
+
+# robot153
+driver
+(
+    name "stage"
+	provides ["7153:position2d:0" "7153:ranger:0" "7153:fiducial:0"]
+	model "robot153"
+)
+
+# robot154
+driver
+(
+    name "stage"
+	provides ["7154:position2d:0" "7154:ranger:0" "7154:fiducial:0"]
+	model "robot154"
+)
+
+# robot155
+driver
+(
+    name "stage"
+	provides ["7155:position2d:0" "7155:ranger:0" "7155:fiducial:0"]
+	model "robot155"
+)
+
+# robot156
+driver
+(
+    name "stage"
+	provides ["7156:position2d:0" "7156:ranger:0" "7156:fiducial:0"]
+	model "robot156"
+)
+
+# robot157
+driver
+(
+    name "stage"
+	provides ["7157:position2d:0" "7157:ranger:0" "7157:fiducial:0"]
+	model "robot157"
+)
+
+# robot158
+driver
+(
+    name "stage"
+	provides ["7158:position2d:0" "7158:ranger:0" "7158:fiducial:0"]
+	model "robot158"
+)
+
+# robot159
+driver
+(
+    name "stage"
+	provides ["7159:position2d:0" "7159:ranger:0" "7159:fiducial:0"]
+	model "robot159"
+)
+
+# robot160
+driver
+(
+    name "stage"
+	provides ["7160:position2d:0" "7160:ranger:0" "7160:fiducial:0"]
+	model "robot160"
+)
+
+# robot161
+driver
+(
+    name "stage"
+	provides ["7161:position2d:0" "7161:ranger:0" "7161:fiducial:0"]
+	model "robot161"
+)
+
+# robot162
+driver
+(
+    name "stage"
+	provides ["7162:position2d:0" "7162:ranger:0" "7162:fiducial:0"]
+	model "robot162"
+)
+
+# robot163
+driver
+(
+    name "stage"
+	provides ["7163:position2d:0" "7163:ranger:0" "7163:fiducial:0"]
+	model "robot163"
+)
+
+# robot164
+driver
+(
+    name "stage"
+	provides ["7164:position2d:0" "7164:ranger:0" "7164:fiducial:0"]
+	model "robot164"
+)
+
+# robot165
+driver
+(
+    name "stage"
+	provides ["7165:position2d:0" "7165:ranger:0" "7165:fiducial:0"]
+	model "robot165"
+)
+
+# robot166
+driver
+(
+    name "stage"
+	provides ["7166:position2d:0" "7166:ranger:0" "7166:fiducial:0"]
+	model "robot166"
+)
+
+# robot167
+driver
+(
+    name "stage"
+	provides ["7167:position2d:0" "7167:ranger:0" "7167:fiducial:0"]
+	model "robot167"
+)
+
+# robot168
+driver
+(
+    name "stage"
+	provides ["7168:position2d:0" "7168:ranger:0" "7168:fiducial:0"]
+	model "robot168"
+)
+
+# robot169
+driver
+(
+    name "stage"
+	provides ["7169:position2d:0" "7169:ranger:0" "7169:fiducial:0"]
+	model "robot169"
+)
+
+# robot170
+driver
+(
+    name "stage"
+	provides ["7170:position2d:0" "7170:ranger:0" "7170:fiducial:0"]
+	model "robot170"
+)
+
+# robot171
+driver
+(
+    name "stage"
+	provides ["7171:position2d:0" "7171:ranger:0" "7171:fiducial:0"]
+	model "robot171"
+)
+
+# robot172
+driver
+(
+    name "stage"
+	provides ["7172:position2d:0" "7172:ranger:0" "7172:fiducial:0"]
+	model "robot172"
+)
+
+# robot173
+driver
+(
+    name "stage"
+	provides ["7173:position2d:0" "7173:ranger:0" "7173:fiducial:0"]
+	model "robot173"
+)
+
+# robot174
+driver
+(
+    name "stage"
+	provides ["7174:position2d:0" "7174:ranger:0" "7174:fiducial:0"]
+	model "robot174"
+)
+
+# robot175
+driver
+(
+    name "stage"
+	provides ["7175:position2d:0" "7175:ranger:0" "7175:fiducial:0"]
+	model "robot175"
+)
+
+# robot176
+driver
+(
+    name "stage"
+	provides ["7176:position2d:0" "7176:ranger:0" "7176:fiducial:0"]
+	model "robot176"
+)
+
+# robot177
+driver
+(
+    name "stage"
+	provides ["7177:position2d:0" "7177:ranger:0" "7177:fiducial:0"]
+	model "robot177"
+)
+
+# robot178
+driver
+(
+    name "stage"
+	provides ["7178:position2d:0" "7178:ranger:0" "7178:fiducial:0"]
+	model "robot178"
+)
+
+# robot179
+driver
+(
+    name "stage"
+	provides ["7179:position2d:0" "7179:ranger:0" "7179:fiducial:0"]
+	model "robot179"
+)
+
+# robot180
+driver
+(
+    name "stage"
+	provides ["7180:position2d:0" "7180:ranger:0" "7180:fiducial:0"]
+	model "robot180"
+)
+
+# robot181
+driver
+(
+    name "stage"
+	provides ["7181:position2d:0" "7181:ranger:0" "7181:fiducial:0"]
+	model "robot181"
+)
+
+# robot182
+driver
+(
+    name "stage"
+	provides ["7182:position2d:0" "7182:ranger:0" "7182:fiducial:0"]
+	model "robot182"
+)
+
+# robot183
+driver
+(
+    name "stage"
+	provides ["7183:position2d:0" "7183:ranger:0" "7183:fiducial:0"]
+	model "robot183"
+)
+
+# robot184
+driver
+(
+    name "stage"
+	provides ["7184:position2d:0" "7184:ranger:0" "7184:fiducial:0"]
+	model "robot184"
+)
+
+# robot185
+driver
+(
+    name "stage"
+	provides ["7185:position2d:0" "7185:ranger:0" "7185:fiducial:0"]
+	model "robot185"
+)
+
+# robot186
+driver
+(
+    name "stage"
+	provides ["7186:position2d:0" "7186:ranger:0" "7186:fiducial:0"]
+	model "robot186"
+)
+
+# robot187
+driver
+(
+    name "stage"
+	provides ["7187:position2d:0" "7187:ranger:0" "7187:fiducial:0"]
+	model "robot187"
+)
+
+# robot188
+driver
+(
+    name "stage"
+	provides ["7188:position2d:0" "7188:ranger:0" "7188:fiducial:0"]
+	model "robot188"
+)
+
+# robot189
+driver
+(
+    name "stage"
+	provides ["7189:position2d:0" "7189:ranger:0" "7189:fiducial:0"]
+	model "robot189"
+)
+
+# robot190
+driver
+(
+    name "stage"
+	provides ["7190:position2d:0" "7190:ranger:0" "7190:fiducial:0"]
+	model "robot190"
+)
+
+# robot191
+driver
+(
+    name "stage"
+	provides ["7191:position2d:0" "7191:ranger:0" "7191:fiducial:0"]
+	model "robot191"
+)
+
+# robot192
+driver
+(
+    name "stage"
+	provides ["7192:position2d:0" "7192:ranger:0" "7192:fiducial:0"]
+	model "robot192"
+)
+
+# robot193
+driver
+(
+    name "stage"
+	provides ["7193:position2d:0" "7193:ranger:0" "7193:fiducial:0"]
+	model "robot193"
+)
+
+# robot194
+driver
+(
+    name "stage"
+	provides ["7194:position2d:0" "7194:ranger:0" "7194:fiducial:0"]
+	model "robot194"
+)
+
+# robot195
+driver
+(
+    name "stage"
+	provides ["7195:position2d:0" "7195:ranger:0" "7195:fiducial:0"]
+	model "robot195"
+)
+
+# robot196
+driver
+(
+    name "stage"
+	provides ["7196:position2d:0" "7196:ranger:0" "7196:fiducial:0"]
+	model "robot196"
+)
+
+# robot197
+driver
+(
+    name "stage"
+	provides ["7197:position2d:0" "7197:ranger:0" "7197:fiducial:0"]
+	model "robot197"
+)
+
+# robot198
+driver
+(
+    name "stage"
+	provides ["7198:position2d:0" "7198:ranger:0" "7198:fiducial:0"]
+	model "robot198"
+)
+
+# robot199
+driver
+(
+    name "stage"
+	provides ["7199:position2d:0" "7199:ranger:0" "7199:fiducial:0"]
+	model "robot199"
+)
+
+# robot200
+driver
+(
+    name "stage"
+	provides ["7200:position2d:0" "7200:ranger:0" "7200:fiducial:0"]
+	model "robot200"
+)
+
+# robot201
+driver
+(
+    name "stage"
+	provides ["7201:position2d:0" "7201:ranger:0" "7201:fiducial:0"]
+	model "robot201"
+)
+
+# robot202
+driver
+(
+    name "stage"
+	provides ["7202:position2d:0" "7202:ranger:0" "7202:fiducial:0"]
+	model "robot202"
+)
+
+# robot203
+driver
+(
+    name "stage"
+	provides ["7203:position2d:0" "7203:ranger:0" "7203:fiducial:0"]
+	model "robot203"
+)
+
+# robot204
+driver
+(
+    name "stage"
+	provides ["7204:position2d:0" "7204:ranger:0" "7204:fiducial:0"]
+	model "robot204"
+)
+
+# robot205
+driver
+(
+    name "stage"
+	provides ["7205:position2d:0" "7205:ranger:0" "7205:fiducial:0"]
+	model "robot205"
+)
+
+# robot206
+driver
+(
+    name "stage"
+	provides ["7206:position2d:0" "7206:ranger:0" "7206:fiducial:0"]
+	model "robot206"
+)
+
+# robot207
+driver
+(
+    name "stage"
+	provides ["7207:position2d:0" "7207:ranger:0" "7207:fiducial:0"]
+	model "robot207"
+)
+
+# robot208
+driver
+(
+    name "stage"
+	provides ["7208:position2d:0" "7208:ranger:0" "7208:fiducial:0"]
+	model "robot208"
+)
+
+# robot209
+driver
+(
+    name "stage"
+	provides ["7209:position2d:0" "7209:ranger:0" "7209:fiducial:0"]
+	model "robot209"
+)
+
+# robot210
+driver
+(
+    name "stage"
+	provides ["7210:position2d:0" "7210:ranger:0" "7210:fiducial:0"]
+	model "robot210"
+)
+
+# robot211
+driver
+(
+    name "stage"
+	provides ["7211:position2d:0" "7211:ranger:0" "7211:fiducial:0"]
+	model "robot211"
+)
+
+# robot212
+driver
+(
+    name "stage"
+	provides ["7212:position2d:0" "7212:ranger:0" "7212:fiducial:0"]
+	model "robot212"
+)
+
+# robot213
+driver
+(
+    name "stage"
+	provides ["7213:position2d:0" "7213:ranger:0" "7213:fiducial:0"]
+	model "robot213"
+)
+
+# robot214
+driver
+(
+    name "stage"
+	provides ["7214:position2d:0" "7214:ranger:0" "7214:fiducial:0"]
+	model "robot214"
+)
+
+# robot215
+driver
+(
+    name "stage"
+	provides ["7215:position2d:0" "7215:ranger:0" "7215:fiducial:0"]
+	model "robot215"
+)
+
+# robot216
+driver
+(
+    name "stage"
+	provides ["7216:position2d:0" "7216:ranger:0" "7216:fiducial:0"]
+	model "robot216"
+)
+
+# robot217
+driver
+(
+    name "stage"
+	provides ["7217:position2d:0" "7217:ranger:0" "7217:fiducial:0"]
+	model "robot217"
+)
+
+# robot218
+driver
+(
+    name "stage"
+	provides ["7218:position2d:0" "7218:ranger:0" "7218:fiducial:0"]
+	model "robot218"
+)
+
+# robot219
+driver
+(
+    name "stage"
+	provides ["7219:position2d:0" "7219:ranger:0" "7219:fiducial:0"]
+	model "robot219"
+)
+
+# robot220
+driver
+(
+    name "stage"
+	provides ["7220:position2d:0" "7220:ranger:0" "7220:fiducial:0"]
+	model "robot220"
+)
+
+# robot221
+driver
+(
+    name "stage"
+	provides ["7221:position2d:0" "7221:ranger:0" "7221:fiducial:0"]
+	model "robot221"
+)
+
+# robot222
+driver
+(
+    name "stage"
+	provides ["7222:position2d:0" "7222:ranger:0" "7222:fiducial:0"]
+	model "robot222"
+)
+
+# robot223
+driver
+(
+    name "stage"
+	provides ["7223:position2d:0" "7223:ranger:0" "7223:fiducial:0"]
+	model "robot223"
+)
+
+# robot224
+driver
+(
+    name "stage"
+	provides ["7224:position2d:0" "7224:ranger:0" "7224:fiducial:0"]
+	model "robot224"
+)
+
+# robot225
+driver
+(
+    name "stage"
+	provides ["7225:position2d:0" "7225:ranger:0" "7225:fiducial:0"]
+	model "robot225"
+)
+
+# robot226
+driver
+(
+    name "stage"
+	provides ["7226:position2d:0" "7226:ranger:0" "7226:fiducial:0"]
+	model "robot226"
+)
+
+# robot227
+driver
+(
+    name "stage"
+	provides ["7227:position2d:0" "7227:ranger:0" "7227:fiducial:0"]
+	model "robot227"
+)
+
+# robot228
+driver
+(
+    name "stage"
+	provides ["7228:position2d:0" "7228:ranger:0" "7228:fiducial:0"]
+	model "robot228"
+)
+
+# robot229
+driver
+(
+    name "stage"
+	provides ["7229:position2d:0" "7229:ranger:0" "7229:fiducial:0"]
+	model "robot229"
+)
+
+# robot230
+driver
+(
+    name "stage"
+	provides ["7230:position2d:0" "7230:ranger:0" "7230:fiducial:0"]
+	model "robot230"
+)
+
+# robot231
+driver
+(
+    name "stage"
+	provides ["7231:position2d:0" "7231:ranger:0" "7231:fiducial:0"]
+	model "robot231"
+)
+
+# robot232
+driver
+(
+    name "stage"
+	provides ["7232:position2d:0" "7232:ranger:0" "7232:fiducial:0"]
+	model "robot232"
+)
+
+# robot233
+driver
+(
+    name "stage"
+	provides ["7233:position2d:0" "7233:ranger:0" "7233:fiducial:0"]
+	model "robot233"
+)
+
+# robot234
+driver
+(
+    name "stage"
+	provides ["7234:position2d:0" "7234:ranger:0" "7234:fiducial:0"]
+	model "robot234"
+)
+
+# robot235
+driver
+(
+    name "stage"
+	provides ["7235:position2d:0" "7235:ranger:0" "7235:fiducial:0"]
+	model "robot235"
+)
+
+# robot236
+driver
+(
+    name "stage"
+	provides ["7236:position2d:0" "7236:ranger:0" "7236:fiducial:0"]
+	model "robot236"
+)
+
+# robot237
+driver
+(
+    name "stage"
+	provides ["7237:position2d:0" "7237:ranger:0" "7237:fiducial:0"]
+	model "robot237"
+)
+
+# robot238
+driver
+(
+    name "stage"
+	provides ["7238:position2d:0" "7238:ranger:0" "7238:fiducial:0"]
+	model "robot238"
+)
+
+# robot239
+driver
+(
+    name "stage"
+	provides ["7239:position2d:0" "7239:ranger:0" "7239:fiducial:0"]
+	model "robot239"
+)
+
+# robot240
+driver
+(
+    name "stage"
+	provides ["7240:position2d:0" "7240:ranger:0" "7240:fiducial:0"]
+	model "robot240"
+)
+
+# robot241
+driver
+(
+    name "stage"
+	provides ["7241:position2d:0" "7241:ranger:0" "7241:fiducial:0"]
+	model "robot241"
+)
+
+# robot242
+driver
+(
+    name "stage"
+	provides ["7242:position2d:0" "7242:ranger:0" "7242:fiducial:0"]
+	model "robot242"
+)
+
+# robot243
+driver
+(
+    name "stage"
+	provides ["7243:position2d:0" "7243:ranger:0" "7243:fiducial:0"]
+	model "robot243"
+)
+
+# robot244
+driver
+(
+    name "stage"
+	provides ["7244:position2d:0" "7244:ranger:0" "7244:fiducial:0"]
+	model "robot244"
+)
+
+# robot245
+driver
+(
+    name "stage"
+	provides ["7245:position2d:0" "7245:ranger:0" "7245:fiducial:0"]
+	model "robot245"
+)
+
+# robot246
+driver
+(
+    name "stage"
+	provides ["7246:position2d:0" "7246:ranger:0" "7246:fiducial:0"]
+	model "robot246"
+)
+
+# robot247
+driver
+(
+    name "stage"
+	provides ["7247:position2d:0" "7247:ranger:0" "7247:fiducial:0"]
+	model "robot247"
+)
+
+# robot248
+driver
+(
+    name "stage"
+	provides ["7248:position2d:0" "7248:ranger:0" "7248:fiducial:0"]
+	model "robot248"
+)
+
+# robot249
+driver
+(
+    name "stage"
+	provides ["7249:position2d:0" "7249:ranger:0" "7249:fiducial:0"]
+	model "robot249"
+)
+
+# robot250
+driver
+(
+    name "stage"
+	provides ["7250:position2d:0" "7250:ranger:0" "7250:fiducial:0"]
+	model "robot250"
+)
+
+# robot251
+driver
+(
+    name "stage"
+	provides ["7251:position2d:0" "7251:ranger:0" "7251:fiducial:0"]
+	model "robot251"
+)
+
+# robot252
+driver
+(
+    name "stage"
+	provides ["7252:position2d:0" "7252:ranger:0" "7252:fiducial:0"]
+	model "robot252"
+)
+
+# robot253
+driver
+(
+    name "stage"
+	provides ["7253:position2d:0" "7253:ranger:0" "7253:fiducial:0"]
+	model "robot253"
+)
+
+# robot254
+driver
+(
+    name "stage"
+	provides ["7254:position2d:0" "7254:ranger:0" "7254:fiducial:0"]
+	model "robot254"
+)
+
+# robot255
+driver
+(
+    name "stage"
+	provides ["7255:position2d:0" "7255:ranger:0" "7255:fiducial:0"]
+	model "robot255"
+)
+
+# robot256
+driver
+(
+    name "stage"
+	provides ["7256:position2d:0" "7256:ranger:0" "7256:fiducial:0"]
+	model "robot256"
+)
+
+# robot257
+driver
+(
+    name "stage"
+	provides ["7257:position2d:0" "7257:ranger:0" "7257:fiducial:0"]
+	model "robot257"
+)
+
+# robot258
+driver
+(
+    name "stage"
+	provides ["7258:position2d:0" "7258:ranger:0" "7258:fiducial:0"]
+	model "robot258"
+)
+
+# robot259
+driver
+(
+    name "stage"
+	provides ["7259:position2d:0" "7259:ranger:0" "7259:fiducial:0"]
+	model "robot259"
+)
+
+# robot260
+driver
+(
+    name "stage"
+	provides ["7260:position2d:0" "7260:ranger:0" "7260:fiducial:0"]
+	model "robot260"
+)
+
+# robot261
+driver
+(
+    name "stage"
+	provides ["7261:position2d:0" "7261:ranger:0" "7261:fiducial:0"]
+	model "robot261"
+)
+
+# robot262
+driver
+(
+    name "stage"
+	provides ["7262:position2d:0" "7262:ranger:0" "7262:fiducial:0"]
+	model "robot262"
+)
+
+# robot263
+driver
+(
+    name "stage"
+	provides ["7263:position2d:0" "7263:ranger:0" "7263:fiducial:0"]
+	model "robot263"
+)
+
+# robot264
+driver
+(
+    name "stage"
+	provides ["7264:position2d:0" "7264:ranger:0" "7264:fiducial:0"]
+	model "robot264"
+)
+
+# robot265
+driver
+(
+    name "stage"
+	provides ["7265:position2d:0" "7265:ranger:0" "7265:fiducial:0"]
+	model "robot265"
+)
+
+# robot266
+driver
+(
+    name "stage"
+	provides ["7266:position2d:0" "7266:ranger:0" "7266:fiducial:0"]
+	model "robot266"
+)
+
+# robot267
+driver
+(
+    name "stage"
+	provides ["7267:position2d:0" "7267:ranger:0" "7267:fiducial:0"]
+	model "robot267"
+)
+
+# robot268
+driver
+(
+    name "stage"
+	provides ["7268:position2d:0" "7268:ranger:0" "7268:fiducial:0"]
+	model "robot268"
+)
+
+# robot269
+driver
+(
+    name "stage"
+	provides ["7269:position2d:0" "7269:ranger:0" "7269:fiducial:0"]
+	model "robot269"
+)
+
+# robot270
+driver
+(
+    name "stage"
+	provides ["7270:position2d:0" "7270:ranger:0" "7270:fiducial:0"]
+	model "robot270"
+)
+
+# robot271
+driver
+(
+    name "stage"
+	provides ["7271:position2d:0" "7271:ranger:0" "7271:fiducial:0"]
+	model "robot271"
+)
+
+# robot272
+driver
+(
+    name "stage"
+	provides ["7272:position2d:0" "7272:ranger:0" "7272:fiducial:0"]
+	model "robot272"
+)
+
+# robot273
+driver
+(
+    name "stage"
+	provides ["7273:position2d:0" "7273:ranger:0" "7273:fiducial:0"]
+	model "robot273"
+)
+
+# robot274
+driver
+(
+    name "stage"
+	provides ["7274:position2d:0" "7274:ranger:0" "7274:fiducial:0"]
+	model "robot274"
+)
+
+# robot275
+driver
+(
+    name "stage"
+	provides ["7275:position2d:0" "7275:ranger:0" "7275:fiducial:0"]
+	model "robot275"
+)
+
+# robot276
+driver
+(
+    name "stage"
+	provides ["7276:position2d:0" "7276:ranger:0" "7276:fiducial:0"]
+	model "robot276"
+)
+
+# robot277
+driver
+(
+    name "stage"
+	provides ["7277:position2d:0" "7277:ranger:0" "7277:fiducial:0"]
+	model "robot277"
+)
+
+# robot278
+driver
+(
+    name "stage"
+	provides ["7278:position2d:0" "7278:ranger:0" "7278:fiducial:0"]
+	model "robot278"
+)
+
+# robot279
+driver
+(
+    name "stage"
+	provides ["7279:position2d:0" "7279:ranger:0" "7279:fiducial:0"]
+	model "robot279"
+)
+
+# robot280
+driver
+(
+    name "stage"
+	provides ["7280:position2d:0" "7280:ranger:0" "7280:fiducial:0"]
+	model "robot280"
+)
+
+# robot281
+driver
+(
+    name "stage"
+	provides ["7281:position2d:0" "7281:ranger:0" "7281:fiducial:0"]
+	model "robot281"
+)
+
+# robot282
+driver
+(
+    name "stage"
+	provides ["7282:position2d:0" "7282:ranger:0" "7282:fiducial:0"]
+	model "robot282"
+)
+
+# robot283
+driver
+(
+    name "stage"
+	provides ["7283:position2d:0" "7283:ranger:0" "7283:fiducial:0"]
+	model "robot283"
+)
+
+# robot284
+driver
+(
+    name "stage"
+	provides ["7284:position2d:0" "7284:ranger:0" "7284:fiducial:0"]
+	model "robot284"
+)
+
+# robot285
+driver
+(
+    name "stage"
+	provides ["7285:position2d:0" "7285:ranger:0" "7285:fiducial:0"]
+	model "robot285"
+)
+
+# robot286
+driver
+(
+    name "stage"
+	provides ["7286:position2d:0" "7286:ranger:0" "7286:fiducial:0"]
+	model "robot286"
+)
+
+# robot287
+driver
+(
+    name "stage"
+	provides ["7287:position2d:0" "7287:ranger:0" "7287:fiducial:0"]
+	model "robot287"
+)
+
+# robot288
+driver
+(
+    name "stage"
+	provides ["7288:position2d:0" "7288:ranger:0" "7288:fiducial:0"]
+	model "robot288"
+)
+
+# robot289
+driver
+(
+    name "stage"
+	provides ["7289:position2d:0" "7289:ranger:0" "7289:fiducial:0"]
+	model "robot289"
+)
+
+# robot290
+driver
+(
+    name "stage"
+	provides ["7290:position2d:0" "7290:ranger:0" "7290:fiducial:0"]
+	model "robot290"
+)
+
+# robot291
+driver
+(
+    name "stage"
+	provides ["7291:position2d:0" "7291:ranger:0" "7291:fiducial:0"]
+	model "robot291"
+)
+
+# robot292
+driver
+(
+    name "stage"
+	provides ["7292:position2d:0" "7292:ranger:0" "7292:fiducial:0"]
+	model "robot292"
+)
+
+# robot293
+driver
+(
+    name "stage"
+	provides ["7293:position2d:0" "7293:ranger:0" "7293:fiducial:0"]
+	model "robot293"
+)
+
+# robot294
+driver
+(
+    name "stage"
+	provides ["7294:position2d:0" "7294:ranger:0" "7294:fiducial:0"]
+	model "robot294"
+)
+
+# robot295
+driver
+(
+    name "stage"
+	provides ["7295:position2d:0" "7295:ranger:0" "7295:fiducial:0"]
+	model "robot295"
+)
+
+# robot296
+driver
+(
+    name "stage"
+	provides ["7296:position2d:0" "7296:ranger:0" "7296:fiducial:0"]
+	model "robot296"
+)
+
+# robot297
+driver
+(
+    name "stage"
+	provides ["7297:position2d:0" "7297:ranger:0" "7297:fiducial:0"]
+	model "robot297"
+)
+
+# robot298
+driver
+(
+    name "stage"
+	provides ["7298:position2d:0" "7298:ranger:0" "7298:fiducial:0"]
+	model "robot298"
+)
+
+# robot299
+driver
+(
+    name "stage"
+	provides ["7299:position2d:0" "7299:ranger:0" "7299:fiducial:0"]
+	model "robot299"
+)
+
+# robot300
+driver
+(
+    name "stage"
+	provides ["7300:position2d:0" "7300:ranger:0" "7300:fiducial:0"]
+	model "robot300"
+)
+
+# robot301
+driver
+(
+    name "stage"
+	provides ["7301:position2d:0" "7301:ranger:0" "7301:fiducial:0"]
+	model "robot301"
+)
+
+# robot302
+driver
+(
+    name "stage"
+	provides ["7302:position2d:0" "7302:ranger:0" "7302:fiducial:0"]
+	model "robot302"
+)
+
+# robot303
+driver
+(
+    name "stage"
+	provides ["7303:position2d:0" "7303:ranger:0" "7303:fiducial:0"]
+	model "robot303"
+)
+
+# robot304
+driver
+(
+    name "stage"
+	provides ["7304:position2d:0" "7304:ranger:0" "7304:fiducial:0"]
+	model "robot304"
+)
+
+# robot305
+driver
+(
+    name "stage"
+	provides ["7305:position2d:0" "7305:ranger:0" "7305:fiducial:0"]
+	model "robot305"
+)
+
+# robot306
+driver
+(
+    name "stage"
+	provides ["7306:position2d:0" "7306:ranger:0" "7306:fiducial:0"]
+	model "robot306"
+)
+
+# robot307
+driver
+(
+    name "stage"
+	provides ["7307:position2d:0" "7307:ranger:0" "7307:fiducial:0"]
+	model "robot307"
+)
+
+# robot308
+driver
+(
+    name "stage"
+	provides ["7308:position2d:0" "7308:ranger:0" "7308:fiducial:0"]
+	model "robot308"
+)
+
+# robot309
+driver
+(
+    name "stage"
+	provides ["7309:position2d:0" "7309:ranger:0" "7309:fiducial:0"]
+	model "robot309"
+)
+
+# robot310
+driver
+(
+    name "stage"
+	provides ["7310:position2d:0" "7310:ranger:0" "7310:fiducial:0"]
+	model "robot310"
+)
+
+# robot311
+driver
+(
+    name "stage"
+	provides ["7311:position2d:0" "7311:ranger:0" "7311:fiducial:0"]
+	model "robot311"
+)
+
+# robot312
+driver
+(
+    name "stage"
+	provides ["7312:position2d:0" "7312:ranger:0" "7312:fiducial:0"]
+	model "robot312"
+)
+
+# robot313
+driver
+(
+    name "stage"
+	provides ["7313:position2d:0" "7313:ranger:0" "7313:fiducial:0"]
+	model "robot313"
+)
+
+# robot314
+driver
+(
+    name "stage"
+	provides ["7314:position2d:0" "7314:ranger:0" "7314:fiducial:0"]
+	model "robot314"
+)
+
+# robot315
+driver
+(
+    name "stage"
+	provides ["7315:position2d:0" "7315:ranger:0" "7315:fiducial:0"]
+	model "robot315"
+)
+
+# robot316
+driver
+(
+    name "stage"
+	provides ["7316:position2d:0" "7316:ranger:0" "7316:fiducial:0"]
+	model "robot316"
+)
+
+# robot317
+driver
+(
+    name "stage"
+	provides ["7317:position2d:0" "7317:ranger:0" "7317:fiducial:0"]
+	model "robot317"
+)
+
+# robot318
+driver
+(
+    name "stage"
+	provides ["7318:position2d:0" "7318:ranger:0" "7318:fiducial:0"]
+	model "robot318"
+)
+
+# robot319
+driver
+(
+    name "stage"
+	provides ["7319:position2d:0" "7319:ranger:0" "7319:fiducial:0"]
+	model "robot319"
+)
+
+# robot320
+driver
+(
+    name "stage"
+	provides ["7320:position2d:0" "7320:ranger:0" "7320:fiducial:0"]
+	model "robot320"
+)
+
+# robot321
+driver
+(
+    name "stage"
+	provides ["7321:position2d:0" "7321:ranger:0" "7321:fiducial:0"]
+	model "robot321"
+)
+
+# robot322
+driver
+(
+    name "stage"
+	provides ["7322:position2d:0" "7322:ranger:0" "7322:fiducial:0"]
+	model "robot322"
+)
+
+# robot323
+driver
+(
+    name "stage"
+	provides ["7323:position2d:0" "7323:ranger:0" "7323:fiducial:0"]
+	model "robot323"
+)
+
+# robot324
+driver
+(
+    name "stage"
+	provides ["7324:position2d:0" "7324:ranger:0" "7324:fiducial:0"]
+	model "robot324"
+)
+
+# robot325
+driver
+(
+    name "stage"
+	provides ["7325:position2d:0" "7325:ranger:0" "7325:fiducial:0"]
+	model "robot325"
+)
+
+# robot326
+driver
+(
+    name "stage"
+	provides ["7326:position2d:0" "7326:ranger:0" "7326:fiducial:0"]
+	model "robot326"
+)
+
+# robot327
+driver
+(
+    name "stage"
+	provides ["7327:position2d:0" "7327:ranger:0" "7327:fiducial:0"]
+	model "robot327"
+)
+
+# robot328
+driver
+(
+    name "stage"
+	provides ["7328:position2d:0" "7328:ranger:0" "7328:fiducial:0"]
+	model "robot328"
+)
+
+# robot329
+driver
+(
+    name "stage"
+	provides ["7329:position2d:0" "7329:ranger:0" "7329:fiducial:0"]
+	model "robot329"
+)
+
+# robot330
+driver
+(
+    name "stage"
+	provides ["7330:position2d:0" "7330:ranger:0" "7330:fiducial:0"]
+	model "robot330"
+)
+
+# robot331
+driver
+(
+    name "stage"
+	provides ["7331:position2d:0" "7331:ranger:0" "7331:fiducial:0"]
+	model "robot331"
+)
+
+# robot332
+driver
+(
+    name "stage"
+	provides ["7332:position2d:0" "7332:ranger:0" "7332:fiducial:0"]
+	model "robot332"
+)
+
+# robot333
+driver
+(
+    name "stage"
+	provides ["7333:position2d:0" "7333:ranger:0" "7333:fiducial:0"]
+	model "robot333"
+)
+
+# robot334
+driver
+(
+    name "stage"
+	provides ["7334:position2d:0" "7334:ranger:0" "7334:fiducial:0"]
+	model "robot334"
+)
+
+# robot335
+driver
+(
+    name "stage"
+	provides ["7335:position2d:0" "7335:ranger:0" "7335:fiducial:0"]
+	model "robot335"
+)
+
+# robot336
+driver
+(
+    name "stage"
+	provides ["7336:position2d:0" "7336:ranger:0" "7336:fiducial:0"]
+	model "robot336"
+)
+
+# robot337
+driver
+(
+    name "stage"
+	provides ["7337:position2d:0" "7337:ranger:0" "7337:fiducial:0"]
+	model "robot337"
+)
+
+# robot338
+driver
+(
+    name "stage"
+	provides ["7338:position2d:0" "7338:ranger:0" "7338:fiducial:0"]
+	model "robot338"
+)
+
+# robot339
+driver
+(
+    name "stage"
+	provides ["7339:position2d:0" "7339:ranger:0" "7339:fiducial:0"]
+	model "robot339"
+)
+
+# robot340
+driver
+(
+    name "stage"
+	provides ["7340:position2d:0" "7340:ranger:0" "7340:fiducial:0"]
+	model "robot340"
+)
+
+# robot341
+driver
+(
+    name "stage"
+	provides ["7341:position2d:0" "7341:ranger:0" "7341:fiducial:0"]
+	model "robot341"
+)
+
+# robot342
+driver
+(
+    name "stage"
+	provides ["7342:position2d:0" "7342:ranger:0" "7342:fiducial:0"]
+	model "robot342"
+)
+
+# robot343
+driver
+(
+    name "stage"
+	provides ["7343:position2d:0" "7343:ranger:0" "7343:fiducial:0"]
+	model "robot343"
+)
+
+# robot344
+driver
+(
+    name "stage"
+	provides ["7344:position2d:0" "7344:ranger:0" "7344:fiducial:0"]
+	model "robot344"
+)
+
+# robot345
+driver
+(
+    name "stage"
+	provides ["7345:position2d:0" "7345:ranger:0" "7345:fiducial:0"]
+	model "robot345"
+)
+
+# robot346
+driver
+(
+    name "stage"
+	provides ["7346:position2d:0" "7346:ranger:0" "7346:fiducial:0"]
+	model "robot346"
+)
+
+# robot347
+driver
+(
+    name "stage"
+	provides ["7347:position2d:0" "7347:ranger:0" "7347:fiducial:0"]
+	model "robot347"
+)
+
+# robot348
+driver
+(
+    name "stage"
+	provides ["7348:position2d:0" "7348:ranger:0" "7348:fiducial:0"]
+	model "robot348"
+)
+
+# robot349
+driver
+(
+    name "stage"
+	provides ["7349:position2d:0" "7349:ranger:0" "7349:fiducial:0"]
+	model "robot349"
+)
+
+# robot350
+driver
+(
+    name "stage"
+	provides ["7350:position2d:0" "7350:ranger:0" "7350:fiducial:0"]
+	model "robot350"
+)
+
+# robot351
+driver
+(
+    name "stage"
+	provides ["7351:position2d:0" "7351:ranger:0" "7351:fiducial:0"]
+	model "robot351"
+)
+
+# robot352
+driver
+(
+    name "stage"
+	provides ["7352:position2d:0" "7352:ranger:0" "7352:fiducial:0"]
+	model "robot352"
+)
+
+# robot353
+driver
+(
+    name "stage"
+	provides ["7353:position2d:0" "7353:ranger:0" "7353:fiducial:0"]
+	model "robot353"
+)
+
+# robot354
+driver
+(
+    name "stage"
+	provides ["7354:position2d:0" "7354:ranger:0" "7354:fiducial:0"]
+	model "robot354"
+)
+
+# robot355
+driver
+(
+    name "stage"
+	provides ["7355:position2d:0" "7355:ranger:0" "7355:fiducial:0"]
+	model "robot355"
+)
+
+# robot356
+driver
+(
+    name "stage"
+	provides ["7356:position2d:0" "7356:ranger:0" "7356:fiducial:0"]
+	model "robot356"
+)
+
+# robot357
+driver
+(
+    name "stage"
+	provides ["7357:position2d:0" "7357:ranger:0" "7357:fiducial:0"]
+	model "robot357"
+)
+
+# robot358
+driver
+(
+    name "stage"
+	provides ["7358:position2d:0" "7358:ranger:0" "7358:fiducial:0"]
+	model "robot358"
+)
+
+# robot359
+driver
+(
+    name "stage"
+	provides ["7359:position2d:0" "7359:ranger:0" "7359:fiducial:0"]
+	model "robot359"
+)
+
+# robot360
+driver
+(
+    name "stage"
+	provides ["7360:position2d:0" "7360:ranger:0" "7360:fiducial:0"]
+	model "robot360"
+)
+
+# robot361
+driver
+(
+    name "stage"
+	provides ["7361:position2d:0" "7361:ranger:0" "7361:fiducial:0"]
+	model "robot361"
+)
+
+# robot362
+driver
+(
+    name "stage"
+	provides ["7362:position2d:0" "7362:ranger:0" "7362:fiducial:0"]
+	model "robot362"
+)
+
+# robot363
+driver
+(
+    name "stage"
+	provides ["7363:position2d:0" "7363:ranger:0" "7363:fiducial:0"]
+	model "robot363"
+)
+
+# robot364
+driver
+(
+    name "stage"
+	provides ["7364:position2d:0" "7364:ranger:0" "7364:fiducial:0"]
+	model "robot364"
+)
+
+# robot365
+driver
+(
+    name "stage"
+	provides ["7365:position2d:0" "7365:ranger:0" "7365:fiducial:0"]
+	model "robot365"
+)
+
+# robot366
+driver
+(
+    name "stage"
+	provides ["7366:position2d:0" "7366:ranger:0" "7366:fiducial:0"]
+	model "robot366"
+)
+
+# robot367
+driver
+(
+    name "stage"
+	provides ["7367:position2d:0" "7367:ranger:0" "7367:fiducial:0"]
+	model "robot367"
+)
+
+# robot368
+driver
+(
+    name "stage"
+	provides ["7368:position2d:0" "7368:ranger:0" "7368:fiducial:0"]
+	model "robot368"
+)
+
+# robot369
+driver
+(
+    name "stage"
+	provides ["7369:position2d:0" "7369:ranger:0" "7369:fiducial:0"]
+	model "robot369"
+)
+
+# robot370
+driver
+(
+    name "stage"
+	provides ["7370:position2d:0" "7370:ranger:0" "7370:fiducial:0"]
+	model "robot370"
+)
+
+# robot371
+driver
+(
+    name "stage"
+	provides ["7371:position2d:0" "7371:ranger:0" "7371:fiducial:0"]
+	model "robot371"
+)
+
+# robot372
+driver
+(
+    name "stage"
+	provides ["7372:position2d:0" "7372:ranger:0" "7372:fiducial:0"]
+	model "robot372"
+)
+
+# robot373
+driver
+(
+    name "stage"
+	provides ["7373:position2d:0" "7373:ranger:0" "7373:fiducial:0"]
+	model "robot373"
+)
+
+# robot374
+driver
+(
+    name "stage"
+	provides ["7374:position2d:0" "7374:ranger:0" "7374:fiducial:0"]
+	model "robot374"
+)
+
+# robot375
+driver
+(
+    name "stage"
+	provides ["7375:position2d:0" "7375:ranger:0" "7375:fiducial:0"]
+	model "robot375"
+)
+
+# robot376
+driver
+(
+    name "stage"
+	provides ["7376:position2d:0" "7376:ranger:0" "7376:fiducial:0"]
+	model "robot376"
+)
+
+# robot377
+driver
+(
+    name "stage"
+	provides ["7377:position2d:0" "7377:ranger:0" "7377:fiducial:0"]
+	model "robot377"
+)
+
+# robot378
+driver
+(
+    name "stage"
+	provides ["7378:position2d:0" "7378:ranger:0" "7378:fiducial:0"]
+	model "robot378"
+)
+
+# robot379
+driver
+(
+    name "stage"
+	provides ["7379:position2d:0" "7379:ranger:0" "7379:fiducial:0"]
+	model "robot379"
+)
+
+# robot380
+driver
+(
+    name "stage"
+	provides ["7380:position2d:0" "7380:ranger:0" "7380:fiducial:0"]
+	model "robot380"
+)
+
+# robot381
+driver
+(
+    name "stage"
+	provides ["7381:position2d:0" "7381:ranger:0" "7381:fiducial:0"]
+	model "robot381"
+)
+
+# robot382
+driver
+(
+    name "stage"
+	provides ["7382:position2d:0" "7382:ranger:0" "7382:fiducial:0"]
+	model "robot382"
+)
+
+# robot383
+driver
+(
+    name "stage"
+	provides ["7383:position2d:0" "7383:ranger:0" "7383:fiducial:0"]
+	model "robot383"
+)
+
+# robot384
+driver
+(
+    name "stage"
+	provides ["7384:position2d:0" "7384:ranger:0" "7384:fiducial:0"]
+	model "robot384"
+)
+
+# robot385
+driver
+(
+    name "stage"
+	provides ["7385:position2d:0" "7385:ranger:0" "7385:fiducial:0"]
+	model "robot385"
+)
+
+# robot386
+driver
+(
+    name "stage"
+	provides ["7386:position2d:0" "7386:ranger:0" "7386:fiducial:0"]
+	model "robot386"
+)
+
+# robot387
+driver
+(
+    name "stage"
+	provides ["7387:position2d:0" "7387:ranger:0" "7387:fiducial:0"]
+	model "robot387"
+)
+
+# robot388
+driver
+(
+    name "stage"
+	provides ["7388:position2d:0" "7388:ranger:0" "7388:fiducial:0"]
+	model "robot388"
+)
+
+# robot389
+driver
+(
+    name "stage"
+	provides ["7389:position2d:0" "7389:ranger:0" "7389:fiducial:0"]
+	model "robot389"
+)
+
+# robot390
+driver
+(
+    name "stage"
+	provides ["7390:position2d:0" "7390:ranger:0" "7390:fiducial:0"]
+	model "robot390"
+)
+
+# robot391
+driver
+(
+    name "stage"
+	provides ["7391:position2d:0" "7391:ranger:0" "7391:fiducial:0"]
+	model "robot391"
+)
+
+# robot392
+driver
+(
+    name "stage"
+	provides ["7392:position2d:0" "7392:ranger:0" "7392:fiducial:0"]
+	model "robot392"
+)
+
+# robot393
+driver
+(
+    name "stage"
+	provides ["7393:position2d:0" "7393:ranger:0" "7393:fiducial:0"]
+	model "robot393"
+)
+
+# robot394
+driver
+(
+    name "stage"
+	provides ["7394:position2d:0" "7394:ranger:0" "7394:fiducial:0"]
+	model "robot394"
+)
+
+# robot395
+driver
+(
+    name "stage"
+	provides ["7395:position2d:0" "7395:ranger:0" "7395:fiducial:0"]
+	model "robot395"
+)
+
+# robot396
+driver
+(
+    name "stage"
+	provides ["7396:position2d:0" "7396:ranger:0" "7396:fiducial:0"]
+	model "robot396"
+)
+
+# robot397
+driver
+(
+    name "stage"
+	provides ["7397:position2d:0" "7397:ranger:0" "7397:fiducial:0"]
+	model "robot397"
+)
+
+# robot398
+driver
+(
+    name "stage"
+	provides ["7398:position2d:0" "7398:ranger:0" "7398:fiducial:0"]
+	model "robot398"
+)
+
+# robot399
+driver
+(
+    name "stage"
+	provides ["7399:position2d:0" "7399:ranger:0" "7399:fiducial:0"]
+	model "robot399"
+)
+
+# robot400
+driver
+(
+    name "stage"
+	provides ["7400:position2d:0" "7400:ranger:0" "7400:fiducial:0"]
+	model "robot400"
+)
+
+# robot401
+driver
+(
+    name "stage"
+	provides ["7401:position2d:0" "7401:ranger:0" "7401:fiducial:0"]
+	model "robot401"
+)
+
+# robot402
+driver
+(
+    name "stage"
+	provides ["7402:position2d:0" "7402:ranger:0" "7402:fiducial:0"]
+	model "robot402"
+)
+
+# robot403
+driver
+(
+    name "stage"
+	provides ["7403:position2d:0" "7403:ranger:0" "7403:fiducial:0"]
+	model "robot403"
+)
+
+# robot404
+driver
+(
+    name "stage"
+	provides ["7404:position2d:0" "7404:ranger:0" "7404:fiducial:0"]
+	model "robot404"
+)
+
+# robot405
+driver
+(
+    name "stage"
+	provides ["7405:position2d:0" "7405:ranger:0" "7405:fiducial:0"]
+	model "robot405"
+)
+
+# robot406
+driver
+(
+    name "stage"
+	provides ["7406:position2d:0" "7406:ranger:0" "7406:fiducial:0"]
+	model "robot406"
+)
+
+# robot407
+driver
+(
+    name "stage"
+	provides ["7407:position2d:0" "7407:ranger:0" "7407:fiducial:0"]
+	model "robot407"
+)
+
+# robot408
+driver
+(
+    name "stage"
+	provides ["7408:position2d:0" "7408:ranger:0" "7408:fiducial:0"]
+	model "robot408"
+)
+
+# robot409
+driver
+(
+    name "stage"
+	provides ["7409:position2d:0" "7409:ranger:0" "7409:fiducial:0"]
+	model "robot409"
+)
+
+# robot410
+driver
+(
+    name "stage"
+	provides ["7410:position2d:0" "7410:ranger:0" "7410:fiducial:0"]
+	model "robot410"
+)
+
+# robot411
+driver
+(
+    name "stage"
+	provides ["7411:position2d:0" "7411:ranger:0" "7411:fiducial:0"]
+	model "robot411"
+)
+
+# robot412
+driver
+(
+    name "stage"
+	provides ["7412:position2d:0" "7412:ranger:0" "7412:fiducial:0"]
+	model "robot412"
+)
+
+# robot413
+driver
+(
+    name "stage"
+	provides ["7413:position2d:0" "7413:ranger:0" "7413:fiducial:0"]
+	model "robot413"
+)
+
+# robot414
+driver
+(
+    name "stage"
+	provides ["7414:position2d:0" "7414:ranger:0" "7414:fiducial:0"]
+	model "robot414"
+)
+
+# robot415
+driver
+(
+    name "stage"
+	provides ["7415:position2d:0" "7415:ranger:0" "7415:fiducial:0"]
+	model "robot415"
+)
+
+# robot416
+driver
+(
+    name "stage"
+	provides ["7416:position2d:0" "7416:ranger:0" "7416:fiducial:0"]
+	model "robot416"
+)
+
+# robot417
+driver
+(
+    name "stage"
+	provides ["7417:position2d:0" "7417:ranger:0" "7417:fiducial:0"]
+	model "robot417"
+)
+
+# robot418
+driver
+(
+    name "stage"
+	provides ["7418:position2d:0" "7418:ranger:0" "7418:fiducial:0"]
+	model "robot418"
+)
+
+# robot419
+driver
+(
+    name "stage"
+	provides ["7419:position2d:0" "7419:ranger:0" "7419:fiducial:0"]
+	model "robot419"
+)
+
+# The end.
