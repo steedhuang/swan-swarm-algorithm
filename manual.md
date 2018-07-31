@@ -134,7 +134,7 @@ Regarding robot as a vehicle, it has speed `V` meter/seconds moving forward and 
 There are a number of robots. Each of them has two type of sensors, fiducial and laser
 * Fiducial: Each robot carries with a beacon and a neighbour-finder that can locate neighbour with `10m`. Thus, we can achieve locating neighbours from robot perspective rather than get global/supervision information.
 * Laser: Each robot carries a laser with 180 degree FOV at front of them.
-## Obstcale Avoidance: Dynamic Window Approach
+## Obstcale Avoidance: Swan Dynamic Window Approach
 As we stated in Motion model, we have a time window `dt` to make decision about `V` and `W`.
 1. Determine obstcale position relative to the robot
 1. Sample out `V`s and `W`s in within sepcific range
@@ -143,7 +143,7 @@ As we stated in Motion model, we have a time window `dt` to make decision about 
     * Dist: Summation of all Euclidean distances to obstcales
     * Heading: the orientation toward goal
     * Velocity: prefer higher velocity
-    * Swarm behavior: diagonal behavior follow Finsler manifold pattern  
+    * Swarm behavior: diagonal swan behavior follow Finsler manifold pattern  
     Evaluation = ALPHA* Dist + BETA* Heading + ZETA* Velocity + GAMMA* Swarm Behavior
 1. Set Each robot into selected `V` and `W`
 ## Trajectory Prediction
